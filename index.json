@@ -1,0 +1,166 @@
+{
+  "updated_at": "2026-02-04T01:15:33.168211",
+  "skills": [
+    {
+      "name": "academic-research-skills",
+      "description": "学术科研综合技能包。整合 34 个核心科研技能，来源：K-Dense-AI (7800+ stars) + ChineseResearchLaTeX (746 stars)。覆盖：科学写作、数据可视化、文献检索、假设生成、同行评审、引用管理、科研海报、演示制作、生物信息学、化学信息学、科学数据库、NSFC标书写作、中文系统综述。触发词：科研、学术、论文、写作、文献、图表、可视化、数据分析、LaTeX、实验设计、统计分析、生物信息、化学信息、PubMed、UniProt、NSFC、国自然、标书、立项依据、研究内容、系统综述。",
+      "file": "academic-research-skills.zip",
+      "size": 22714912,
+      "hash": "694300644d9a697c487012e2cf4e47d5"
+    },
+    {
+      "name": "ai-deweight",
+      "description": "Enhances academic writing originality and reduces AI detection scores using BypassAIGC prompts. Activates when users request AI content deweighting, paper polishing, originality enhancement, AIGC detection avoidance, rewriting to remove AI traces, plagiarism reduction, academic polishing, or duplicate rate reduction. Does not handle emotional copywriting.",
+      "file": "ai-deweight.zip",
+      "size": 9844,
+      "hash": "8ac8e1f670bb40c5761d7ff224888ac2"
+    },
+    {
+      "name": "best-practices-lookup",
+      "description": "方案设计前自动查询相关最佳实践，保存到项目 docs/best-practices/。触发词：\"查找最佳实践\"、\"best practices\"、\"最佳实践\"、\"设计模式\"、\"行业标准\"。在 req-project-dev-draft 阶段2自动触发。",
+      "file": "best-practices-lookup.zip",
+      "size": 2494,
+      "hash": "df42ede29328011e8ea6df0c60327ee3"
+    },
+    {
+      "name": "claude-md-maintainer",
+      "description": "CLAUDE.md 维护规范（添加工具/技能、修改规则、精简审计）",
+      "file": "claude-md-maintainer.zip",
+      "size": 328,
+      "hash": "8c193265baa3d4a13968d7449054a963"
+    },
+    {
+      "name": "config-migrator",
+      "description": "Migrates Claude Code configurations to Codex CLI and Gemini CLI. Activates when users request configuration migration, including requests like \"migrate config\", \"sync to Codex\", \"sync to Gemini\", \"config migration\", or \"multi-CLI configuration\". Handles compatibility differences between the three CLI tools.",
+      "file": "config-migrator.zip",
+      "size": 6495,
+      "hash": "b6a53f8cf6216814cceba43240d89565"
+    },
+    {
+      "name": "dify-workflow-builder",
+      "description": "|",
+      "file": "dify-workflow-builder.zip",
+      "size": 7639,
+      "hash": "dca361d965124efce136a95e2027e553"
+    },
+    {
+      "name": "document-suite",
+      "description": "Unified document processing for DOCX, XLSX, PDF, PPTX. Create, read, edit documents with full support for text, images, tables, and formatting. Supports: (1) Word documents - create with docx-js, edit with OOXML, extract with pandoc; (2) Excel - create/edit with openpyxl, analyze with pandas; (3) PDF - extract with pdfplumber, create with reportlab, convert to images; (4) PowerPoint - create with html2pptx, edit OOXML, generate thumbnails. Use when working with Office files or PDFs.",
+      "file": "document-suite.zip",
+      "size": 138136,
+      "hash": "b41ba822f2fcf7d81b8ff01e7e662bdc"
+    },
+    {
+      "name": "github-uploader",
+      "description": "Uploads current project to GitHub with one command. Automatically initializes git repository, creates GitHub remote repository, and pushes code. Activates when users request \"upload to GitHub\", \"publish to GitHub\", \"create GitHub repository\", or \"push project\".",
+      "file": "github-uploader.zip",
+      "size": 2657,
+      "hash": "2e8d7c2a5cdc59495cd06893298f01e6"
+    },
+    {
+      "name": "hooks-manager",
+      "description": "Manages Claude Code Hooks for creating, viewing, modifying, and debugging event callbacks. Supports macOS/Linux/Windows environments. Activates when users request hook management, including requests like \"hooks\", \"add hook\", \"create hook\", or \"manage hooks\". Enables custom script execution on specific Claude Code events.",
+      "file": "hooks-manager.zip",
+      "size": 4041,
+      "hash": "e5ccd389ef2c8c0d67f32eec8d27e5e6"
+    },
+    {
+      "name": "image-generator",
+      "description": "Generates AI images using Gemini API with requirement confirmation workflow. Activates when users request image generation, including requests like \"generate an image\", \"create a picture\", \"draw something\", or \"AI image generation\". Requires confirming purpose, content, style, and aspect ratio before generation to avoid wasting API calls.",
+      "file": "image-generator.zip",
+      "size": 4763,
+      "hash": "5275eac2a301ad5d49934c7acd284286"
+    },
+    {
+      "name": "library-researcher",
+      "description": "学术文献搜索下载工具（简化版）。假设用户已完成登录，直接在学校发现系统执行搜索和下载。",
+      "file": "library-researcher.zip",
+      "size": 4905,
+      "hash": "b91ad650db073c733aedad8d2c71186b"
+    },
+    {
+      "name": "mineru-pdf",
+      "description": "MinerU 文档转换工具（基于 VLM 的高质量 OCR）。支持 PDF、DOCX、PPT、图片、HTML → Markdown。当用户需要：(1) 提取 PDF/文档内容为 Markdown；(2) 转换 Word/PPT 为可编辑文本；(3) OCR 识别图片中的文字；(4) 保存网页为 Markdown 时使用此技能。触发词：mineru、pdf转markdown、文档提取、ocr识别。",
+      "file": "mineru-pdf.zip",
+      "size": 4152,
+      "hash": "ea849dc05929c957d3953a4ddc14f96d"
+    },
+    {
+      "name": "multi-model-collaborator",
+      "description": "Enables multi-AI collaboration by integrating Codex and Gemini calling methods. Supports independent task delegation or parallel multi-model verification. Activates when users request multi-model collaboration, AI collaboration, or mention Codex/Gemini. Useful for complex problems requiring diverse AI perspectives or validation.",
+      "file": "multi-model-collaborator.zip",
+      "size": 4047,
+      "hash": "a6a121ad25efb1c1e6a6ec25f082e775"
+    },
+    {
+      "name": "notebooklm",
+      "description": "Complete API for Google NotebookLM - full programmatic access including features not in the web UI. Create notebooks, add sources, generate all artifact types, download in multiple formats. Activates on explicit /notebooklm or intent like \"create a podcast about X\"",
+      "file": "notebooklm.zip",
+      "size": 8232,
+      "hash": "fb3e84cdadb47d35e635f590bcc82541"
+    },
+    {
+      "name": "project-zip",
+      "description": "Intelligently compresses and packages projects into ZIP archives with environment setup guide. Analyzes project dependencies (Python/Node.js/Java), generates Chinese setup documentation with mirror source configurations for mainland China users, then packages with smart file exclusion. Activates when users request project compression, including requests like \"compress project\", \"package project\", \"archive project\", \"create zip\", \"zip project\", \"export project\", or \"project archiving\".",
+      "file": "project-zip.zip",
+      "size": 4561,
+      "hash": "b05758687d3c8557db5fc1f0c1d8b84d"
+    },
+    {
+      "name": "req-project-dev-draft",
+      "description": "Guides projects from requirements to development through an outcome-driven workflow (outcome alignment, deliverable interview, solution research, multi-model collaboration, validation planning, specification generation, continuous development). Deeply explores user expectations, establishes outcome-deliverable mapping, and generates comprehensive specification with validation matrix. Activates on requests like \"requirement analysis\", \"technical solution\", \"new project\", \"start planning\", or \"migrate to outcome-driven\".",
+      "file": "req-project-dev-draft.zip",
+      "size": 20127,
+      "hash": "c2b1c6d2ade9525b9ba87a00b6500cfa"
+    },
+    {
+      "name": "simulink-model-builder",
+      "description": "Builds MATLAB Simulink models programmatically with cross-version compatibility (R2016b~R2024b+). Activates when users request Simulink model creation, encounter \"no block named 'powerlib/xxx'\" errors, need programmatic model generation (add_block/set_param/add_line), work with Simscape Electrical simulations (power electronics/motor drives/switching power supplies), or face port connection errors. Resolves module path compatibility issues across different MATLAB versions.",
+      "file": "simulink-model-builder.zip",
+      "size": 7328,
+      "hash": "8c71d84bf5738806433f8766d1bbac0a"
+    },
+    {
+      "name": "skill-creator",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+      "file": "skill-creator.zip",
+      "size": 63305,
+      "hash": "208c80727079fe8b3b233195b43b59aa"
+    },
+    {
+      "name": "skill-zip-sync",
+      "description": "将 ~/.claude/skills/ 下的所有 skill 打包成独立 ZIP 并同步到 GitHub 仓库，支持按需下载。触发词：同步 skill、skill 打包、上传 skill、下载 skill、skill-zip、技能同步、技能仓库。",
+      "file": "skill-zip-sync.zip",
+      "size": 6686,
+      "hash": "a9cc816a72829cd5c9ec0f7ccd4a05a5"
+    },
+    {
+      "name": "systematic-debugging",
+      "description": "Applies systematic debugging methodology when encountering bugs, test failures, or abnormal behavior. Implements four-phase workflow (root cause investigation, pattern analysis, hypothesis testing, fix implementation). Can proactively invoke multi-model collaboration for verification. Activates on requests like \"debug\", \"fix bug\", \"test failure\", or \"error\".",
+      "file": "systematic-debugging.zip",
+      "size": 6942,
+      "hash": "dcae9cae89a7fef57d776862d9990c2d"
+    },
+    {
+      "name": "test-driven-development",
+      "description": "Enforces test-driven development methodology before implementing features or fixing bugs. Mandates RED-GREEN-REFACTOR cycle (write failing test, observe failure, write minimal code to pass, refactor). Activates on requests like \"write code\", \"implement feature\", \"fix bug\", or \"develop\". Ensures code quality through test-first approach.",
+      "file": "test-driven-development.zip",
+      "size": 2635,
+      "hash": "e1408e3a570c9eed78ccc0579a397d4a"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "description": "UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples.",
+      "file": "ui-ux-pro-max.zip",
+      "size": 117136,
+      "hash": "5f36d25f3593402c5f1b17ecfbfee9d2"
+    },
+    {
+      "name": "verification-before-completion",
+      "description": "Requires verification before claiming task completion, successful fixes, or passing tests. Supports three-level verification (task/deliverable/outcome). Mandates running verification commands and confirming output before making success claims. Activates on completion-related keywords like \"done\", \"finished\", \"passed\", \"success\", or \"fixed\". Ensures evidence-based completion claims.",
+      "file": "verification-before-completion.zip",
+      "size": 3012,
+      "hash": "1bdfefc914953128fa5b3efab62e5a85"
+    }
+  ]
+}
