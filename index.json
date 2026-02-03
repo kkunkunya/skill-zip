@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-04T01:15:33.168211",
+  "updated_at": "2026-02-04T01:58:59.390841",
   "skills": [
     {
       "name": "academic-research-skills",
@@ -79,11 +79,18 @@
       "hash": "b91ad650db073c733aedad8d2c71186b"
     },
     {
-      "name": "mineru-pdf",
+      "name": "literature-scout",
+      "description": "|",
+      "file": "literature-scout.zip",
+      "size": 3273,
+      "hash": "c6f604e47f303b67df2ce932b28747d7"
+    },
+    {
+      "name": "mineru-transfer",
       "description": "MinerU 文档转换工具（基于 VLM 的高质量 OCR）。支持 PDF、DOCX、PPT、图片、HTML → Markdown。当用户需要：(1) 提取 PDF/文档内容为 Markdown；(2) 转换 Word/PPT 为可编辑文本；(3) OCR 识别图片中的文字；(4) 保存网页为 Markdown 时使用此技能。触发词：mineru、pdf转markdown、文档提取、ocr识别。",
-      "file": "mineru-pdf.zip",
-      "size": 4152,
-      "hash": "ea849dc05929c957d3953a4ddc14f96d"
+      "file": "mineru-transfer.zip",
+      "size": 4177,
+      "hash": "c7a7c50895df45e92a4d89a6e38bbfe0"
     },
     {
       "name": "multi-model-collaborator",
@@ -98,6 +105,13 @@
       "file": "notebooklm.zip",
       "size": 8232,
       "hash": "fb3e84cdadb47d35e635f590bcc82541"
+    },
+    {
+      "name": "paper-composer",
+      "description": "|",
+      "file": "paper-composer.zip",
+      "size": 6646,
+      "hash": "8921c23e0d543a97c0d048a005a042f7"
     },
     {
       "name": "project-zip",

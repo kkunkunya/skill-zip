@@ -29,9 +29,11 @@ unzip <skill-name>.zip -d ~/.claude/skills/
 | hooks-manager | Manages Claude Code Hooks for creating, viewing, modifying, ... | [下载](hooks-manager.zip) |
 | image-generator | Generates AI images using Gemini API with requirement confir... | [下载](image-generator.zip) |
 | library-researcher | 学术文献搜索下载工具（简化版）。假设用户已完成登录，直接在学校发现系统执行搜索和下载。 | [下载](library-researcher.zip) |
-| mineru-pdf | MinerU 文档转换工具（基于 VLM 的高质量 OCR）。支持 PDF、DOCX、PPT、图片、HTML → Mar... | [下载](mineru-pdf.zip) |
+| literature-scout | | | [下载](literature-scout.zip) |
+| mineru-transfer | MinerU 文档转换工具（基于 VLM 的高质量 OCR）。支持 PDF、DOCX、PPT、图片、HTML → Mar... | [下载](mineru-transfer.zip) |
 | multi-model-collaborator | Enables multi-AI collaboration by integrating Codex and Gemi... | [下载](multi-model-collaborator.zip) |
 | notebooklm | Complete API for Google NotebookLM - full programmatic acces... | [下载](notebooklm.zip) |
+| paper-composer | | | [下载](paper-composer.zip) |
 | project-zip | Intelligently compresses and packages projects into ZIP arch... | [下载](project-zip.zip) |
 | req-project-dev-draft | Guides projects from requirements to development through an ... | [下载](req-project-dev-draft.zip) |
 | simulink-model-builder | Builds MATLAB Simulink models programmatically with cross-ve... | [下载](simulink-model-builder.zip) |
@@ -44,4 +46,4 @@ unzip <skill-name>.zip -d ~/.claude/skills/
 
 ---
 
-*最后更新: 2026-02-04 01:15:33*
+*最后更新: 2026-02-04 01:58:59*
