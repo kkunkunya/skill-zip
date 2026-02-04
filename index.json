@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-04T01:58:59.390841",
+  "updated_at": "2026-02-04T20:56:10.754350",
   "skills": [
     {
       "name": "academic-research-skills",
@@ -51,6 +51,13 @@
       "hash": "b41ba822f2fcf7d81b8ff01e7e662bdc"
     },
     {
+      "name": "find-skills",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "file": "find-skills.zip",
+      "size": 2084,
+      "hash": "e4d89e543b42e344a39d2321bf6cfb69"
+    },
+    {
       "name": "github-uploader",
       "description": "Uploads current project to GitHub with one command. Automatically initializes git repository, creates GitHub remote repository, and pushes code. Activates when users request \"upload to GitHub\", \"publish to GitHub\", \"create GitHub repository\", or \"push project\".",
       "file": "github-uploader.zip",
@@ -66,10 +73,10 @@
     },
     {
       "name": "image-generator",
-      "description": "Generates AI images using Gemini API with requirement confirmation workflow. Activates when users request image generation, including requests like \"generate an image\", \"create a picture\", \"draw something\", or \"AI image generation\". Requires confirming purpose, content, style, and aspect ratio before generation to avoid wasting API calls.",
+      "description": "Generates AI images using Gemini API with requirement confirmation workflow. Activates when users request image generation, including requests like \"generate an image\", \"create a picture\", \"draw something\", or \"AI image generation\". Supports academic diagram mode for publication-quality scientific figures. Requires confirming purpose, content, style, and aspect ratio before generation to avoid wasting API calls.",
       "file": "image-generator.zip",
-      "size": 4763,
-      "hash": "5275eac2a301ad5d49934c7acd284286"
+      "size": 7520,
+      "hash": "4ff3c191b2ef7d32c26de4314ceb386a"
     },
     {
       "name": "library-researcher",
@@ -77,13 +84,6 @@
       "file": "library-researcher.zip",
       "size": 4905,
       "hash": "b91ad650db073c733aedad8d2c71186b"
-    },
-    {
-      "name": "literature-scout",
-      "description": "|",
-      "file": "literature-scout.zip",
-      "size": 3273,
-      "hash": "c6f604e47f303b67df2ce932b28747d7"
     },
     {
       "name": "mineru-transfer",
@@ -138,8 +138,8 @@
       "name": "skill-creator",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
       "file": "skill-creator.zip",
-      "size": 63305,
-      "hash": "208c80727079fe8b3b233195b43b59aa"
+      "size": 63350,
+      "hash": "bca4bc7c659d8f8b698b70ba45855289"
     },
     {
       "name": "skill-zip-sync",
@@ -175,6 +175,13 @@
       "file": "verification-before-completion.zip",
       "size": 3012,
       "hash": "1bdfefc914953128fa5b3efab62e5a85"
+    },
+    {
+      "name": "video-wrapper",
+      "description": "为访谈视频添加综艺特效（花字、卡片、人物条、章节标题等）。支持 4 种视觉主题，先分析字幕内容生成建议供用户审批，再渲染视频。",
+      "file": "video-wrapper.zip",
+      "size": 58331,
+      "hash": "8b52072f22f46ad2774765ff0d3e3d11"
     }
   ]
 }
