@@ -29,7 +29,7 @@ unzip <skill-name>.zip -d ~/.claude/skills/
 | github-uploader | Uploads current project to GitHub with one command. Automati... | [下载](github-uploader.zip) |
 | hooks-manager | Manages Claude Code Hooks for creating, viewing, modifying, ... | [下载](hooks-manager.zip) |
 | image-generator | Generates AI images using Gemini API with requirement confir... | [下载](image-generator.zip) |
-| library-researcher | 学术文献搜索下载工具（简化版）。假设用户已完成登录，直接在学校发现系统执行搜索和下载。 | [下载](library-researcher.zip) |
+| library-researcher | 学术文献搜索下载工具。确认VPN登录后，在学校发现系统批量检索下载，智能记录成功/失败文献。 | [下载](library-researcher.zip) |
 | mineru-transfer | MinerU 文档转换工具（基于 VLM 的高质量 OCR）。支持 PDF、DOCX、PPT、图片、HTML → Mar... | [下载](mineru-transfer.zip) |
 | multi-model-collaborator | Enables multi-AI collaboration by integrating Codex and Gemi... | [下载](multi-model-collaborator.zip) |
 | notebooklm | Complete API for Google NotebookLM - full programmatic acces... | [下载](notebooklm.zip) |
@@ -47,4 +47,4 @@ unzip <skill-name>.zip -d ~/.claude/skills/
 
 ---
 
-*最后更新: 2026-02-04 20:56:10*
+*最后更新: 2026-02-05 14:20:10*

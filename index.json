@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-04T20:56:10.754350",
+  "updated_at": "2026-02-05T14:20:10.872175",
   "skills": [
     {
       "name": "academic-research-skills",
@@ -80,10 +80,10 @@
     },
     {
       "name": "library-researcher",
-      "description": "学术文献搜索下载工具（简化版）。假设用户已完成登录，直接在学校发现系统执行搜索和下载。",
+      "description": "学术文献搜索下载工具。确认VPN登录后，在学校发现系统批量检索下载，智能记录成功/失败文献。",
       "file": "library-researcher.zip",
-      "size": 4905,
-      "hash": "b91ad650db073c733aedad8d2c71186b"
+      "size": 5847,
+      "hash": "135e9b49e1b44ff2f8bd6213d34e43ce"
     },
     {
       "name": "mineru-transfer",
@@ -180,8 +180,8 @@
       "name": "video-wrapper",
       "description": "为访谈视频添加综艺特效（花字、卡片、人物条、章节标题等）。支持 4 种视觉主题，先分析字幕内容生成建议供用户审批，再渲染视频。",
       "file": "video-wrapper.zip",
-      "size": 58331,
-      "hash": "8b52072f22f46ad2774765ff0d3e3d11"
+      "size": 69726,
+      "hash": "c9b3fa5573bdd92c5d712d794ace6019"
     }
   ]
 }
