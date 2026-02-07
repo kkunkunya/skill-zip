@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-05T14:20:10.872175",
+  "updated_at": "2026-02-07T11:03:23.210936",
   "skills": [
     {
       "name": "academic-research-skills",
@@ -14,6 +14,13 @@
       "file": "ai-deweight.zip",
       "size": 9844,
       "hash": "8ac8e1f670bb40c5761d7ff224888ac2"
+    },
+    {
+      "name": "autodl-deployer",
+      "description": "AutoDL GPU云平台项目部署与迁移工具。当用户需要：(1) 将本地PyTorch/深度学习项目迁移到AutoDL；(2) 生成AutoDL一键部署脚本；(3) 打包项目适配AutoDL环境；(4) 配置国内源加速和省钱策略时使用此技能。触发词：autodl、GPU租用、云GPU、深度学习部署、训练环境迁移、autodl部署。",
+      "file": "autodl-deployer.zip",
+      "size": 15025,
+      "hash": "dd501a5ce6c399879b1244502105994b"
     },
     {
       "name": "best-practices-lookup",
@@ -56,6 +63,20 @@
       "file": "find-skills.zip",
       "size": 2084,
       "hash": "e4d89e543b42e344a39d2321bf6cfb69"
+    },
+    {
+      "name": "firecrawl",
+      "description": "|",
+      "file": "firecrawl.zip",
+      "size": 5095,
+      "hash": "be2d5340c67f96258a0ddca349835f98"
+    },
+    {
+      "name": "github-project-manager",
+      "description": "GitHub 项目全生命周期管理：仓库初始化（最佳实践结构）、并行 Agent 任务锁定协调、定时同步到 GitHub、PR/Issue 管理。触发词：GitHub管理、初始化仓库、同步到GitHub、任务锁定、agent协调、创建PR、GitHub最佳实践、仓库结构、agent-lock、periodic-sync。使用场景：(1) 新项目初始化（含 .github/ 模板、CI/CD、.gitignore）；(2) 多 Agent 并行开发时的任务锁定和 GitHub 同步；(3) 检查仓库是否符合最佳实践；(4) 创建 PR/Issue。",
+      "file": "github-project-manager.zip",
+      "size": 11953,
+      "hash": "d8617381cdd295edede479f9d70043e0"
     },
     {
       "name": "github-uploader",
@@ -138,8 +159,8 @@
       "name": "skill-creator",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
       "file": "skill-creator.zip",
-      "size": 63350,
-      "hash": "bca4bc7c659d8f8b698b70ba45855289"
+      "size": 63473,
+      "hash": "f43190bf446a8f9a949934a54daaa3f9"
     },
     {
       "name": "skill-zip-sync",
@@ -163,6 +184,13 @@
       "hash": "e1408e3a570c9eed78ccc0579a397d4a"
     },
     {
+      "name": "threejs-suite",
+      "description": "Three.js 3D开发全栈技能包，涵盖场景搭建、几何体、材质、光照、纹理、动画、交互、模型加载、着色器、后处理。Use when working with Three.js or WebGL 3D development: (1) setting up scenes, cameras, renderers; (2) creating geometries or meshes; (3) configuring materials or PBR; (4) adding lights or shadows; (5) loading textures, UV mapping, HDR; (6) loading GLTF/OBJ/FBX models; (7) animating objects, skeletal/morph animation; (8) raycasting, controls, mouse/touch interaction; (9) writing GLSL shaders or custom effects; (10) post-processing bloom, DOF, color grading. Triggers on: Three.js, three.js, WebGL, 3D scene, 3D rendering, mesh, geometry, material, light, shadow, texture, GLTF, animation, raycaster, shader, GLSL, post-processing, bloom, EffectComposer.",
+      "file": "threejs-suite.zip",
+      "size": 43902,
+      "hash": "4e3964c0ea1ae728ae6a45117a4ddf6b"
+    },
+    {
       "name": "ui-ux-pro-max",
       "description": "UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples.",
       "file": "ui-ux-pro-max.zip",
@@ -180,8 +208,8 @@
       "name": "video-wrapper",
       "description": "为访谈视频添加综艺特效（花字、卡片、人物条、章节标题等）。支持 4 种视觉主题，先分析字幕内容生成建议供用户审批，再渲染视频。",
       "file": "video-wrapper.zip",
-      "size": 69726,
-      "hash": "c9b3fa5573bdd92c5d712d794ace6019"
+      "size": 75538,
+      "hash": "7c868d7cf16afacf85727d3ae992d884"
     }
   ]
 }
