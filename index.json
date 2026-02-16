@@ -1,47 +1,145 @@
 {
-  "updated_at": "2026-02-07T11:03:23.210936",
+  "updated_at": "2026-02-17T01:52:26.570374",
   "skills": [
     {
+      "name": "20-ml-paper-writing",
+      "description": "Write publication-ready ML/AI papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM. Use when drafting papers from research repos, structuring arguments, verifying citations, or preparing camera-ready submissions. Includes LaTeX templates, reviewer guidelines, and citation verification workflows.",
+      "file": "20-ml-paper-writing.zip",
+      "size": 738797,
+      "hash": "079330cac00237e7b8cb0bba239c7494"
+    },
+    {
       "name": "academic-research-skills",
-      "description": "学术科研综合技能包。整合 34 个核心科研技能，来源：K-Dense-AI (7800+ stars) + ChineseResearchLaTeX (746 stars)。覆盖：科学写作、数据可视化、文献检索、假设生成、同行评审、引用管理、科研海报、演示制作、生物信息学、化学信息学、科学数据库、NSFC标书写作、中文系统综述。触发词：科研、学术、论文、写作、文献、图表、可视化、数据分析、LaTeX、实验设计、统计分析、生物信息、化学信息、PubMed、UniProt、NSFC、国自然、标书、立项依据、研究内容、系统综述。",
+      "description": ">",
       "file": "academic-research-skills.zip",
-      "size": 22714912,
-      "hash": "694300644d9a697c487012e2cf4e47d5"
+      "size": 22715228,
+      "hash": "ffae055220a46d5e0f170c75735db2ff"
     },
     {
       "name": "ai-deweight",
       "description": "Enhances academic writing originality and reduces AI detection scores using BypassAIGC prompts. Activates when users request AI content deweighting, paper polishing, originality enhancement, AIGC detection avoidance, rewriting to remove AI traces, plagiarism reduction, academic polishing, or duplicate rate reduction. Does not handle emotional copywriting.",
       "file": "ai-deweight.zip",
-      "size": 9844,
-      "hash": "8ac8e1f670bb40c5761d7ff224888ac2"
+      "size": 35846,
+      "hash": "377b1b0c9e69dedc76bcf350c3d2bb1a"
+    },
+    {
+      "name": "ai-elements",
+      "description": "Create new AI chat interface components for the ai-elements library following established composable patterns, shadcn/ui integration, and Vercel AI SDK conventions. Use when creating new components in packages/elements/src or when the user asks to add a new component to ai-elements.",
+      "file": "ai-elements.zip",
+      "size": 368941,
+      "hash": "ba32da335ab3db66c1b498b6a59ed15f"
     },
     {
       "name": "autodl-deployer",
-      "description": "AutoDL GPU云平台项目部署与迁移工具。当用户需要：(1) 将本地PyTorch/深度学习项目迁移到AutoDL；(2) 生成AutoDL一键部署脚本；(3) 打包项目适配AutoDL环境；(4) 配置国内源加速和省钱策略时使用此技能。触发词：autodl、GPU租用、云GPU、深度学习部署、训练环境迁移、autodl部署。",
+      "description": "AutoDL GPU云平台项目部署与迁移工具。默认交换路径：/root/autodl-fs/（上传下载都走这里，无data/子目录）。当用户需要：(1) 将本地PyTorch/深度学习项目迁移到AutoDL；(2) 生成AutoDL一键部署脚本；(3) 打包项目适配AutoDL环境；(4) 配置国内源加速和省钱策略时使用此技能。触发词：autodl、GPU租用、云GPU、深度学习部署、训练环境迁移、autodl部署。",
       "file": "autodl-deployer.zip",
-      "size": 15025,
-      "hash": "dd501a5ce6c399879b1244502105994b"
+      "size": 17794,
+      "hash": "26f59205e4b0804dbcdc7e6af18871f6"
+    },
+    {
+      "name": "baoyu-article-illustrator",
+      "description": "Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style two-dimension approach. Use when user asks to \"illustrate article\", \"add images\", \"generate images for article\", or \"为文章配图\".",
+      "file": "baoyu-article-illustrator.zip",
+      "size": 39877,
+      "hash": "dcc0950cacaca768fedf04c18b16e14c"
+    },
+    {
+      "name": "baoyu-cover-image",
+      "description": "Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 9 color palettes and 6 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use when user asks to \"generate cover image\", \"create article cover\", or \"make cover\".",
+      "file": "baoyu-cover-image.zip",
+      "size": 40368,
+      "hash": "d8d7dc01535cd5ffd3f45fb3fb6c7ded"
+    },
+    {
+      "name": "baoyu-danger-x-to-markdown",
+      "description": "Converts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user consent. Use when user mentions \"X to markdown\", \"tweet to markdown\", \"save tweet\", or provides x.com/twitter.com URLs for conversion.",
+      "file": "baoyu-danger-x-to-markdown.zip",
+      "size": 34221,
+      "hash": "32311092b470d6255b93f80326bb1cbb"
+    },
+    {
+      "name": "baoyu-format-markdown",
+      "description": "Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to \"format markdown\", \"beautify article\", \"add formatting\", or improve article layout. Outputs to {filename}-formatted.md.",
+      "file": "baoyu-format-markdown.zip",
+      "size": 16430,
+      "hash": "bae0fac88d064fcbef46861955ad89bf"
+    },
+    {
+      "name": "baoyu-image-gen",
+      "description": "AI image generation with OpenAI, Google and DashScope APIs. Supports text-to-image, reference images, aspect ratios. Sequential by default; parallel generation available on request. Use when user asks to generate, create, or draw images.",
+      "file": "baoyu-image-gen.zip",
+      "size": 13983,
+      "hash": "b1cce86765efe476d66651401f9fddf1"
+    },
+    {
+      "name": "baoyu-infographic",
+      "description": "Generates professional infographics with 20 layout types and 17 visual styles. Analyzes content, recommends layout×style combinations, and generates publication-ready infographics. Use when user asks to create \"infographic\", \"信息图\", \"visual summary\", or \"可视化\".",
+      "file": "baoyu-infographic.zip",
+      "size": 34094,
+      "hash": "66d63cfa9bbc5e91983a1ab291e83b80"
+    },
+    {
+      "name": "baoyu-markdown-to-html",
+      "description": "Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, PlantUML, footnotes, alerts, and infographics. Use when user asks for \"markdown to html\", \"convert md to html\", \"md转html\", or needs styled HTML output from markdown.",
+      "file": "baoyu-markdown-to-html.zip",
+      "size": 51663,
+      "hash": "2a23ab955b1c965089b00fd2bf989be0"
+    },
+    {
+      "name": "baoyu-post-to-wechat",
+      "description": "Posts content to WeChat Official Account (微信公众号) via API or Chrome CDP. Supports article posting (文章) with HTML, markdown, or plain text input, and image-text posting (贴图, formerly 图文) with multiple images. Use when user mentions \"发布公众号\", \"post to wechat\", \"微信公众号\", or \"贴图/图文/文章\".",
+      "file": "baoyu-post-to-wechat.zip",
+      "size": 79886,
+      "hash": "f657cc0c3c1231d0edfbac59baef7f8d"
+    },
+    {
+      "name": "baoyu-post-to-x",
+      "description": "Posts content and articles to X (Twitter). Supports regular posts with images/videos and X Articles (long-form Markdown). Uses real Chrome with CDP to bypass anti-automation. Use when user asks to \"post to X\", \"tweet\", \"publish to Twitter\", or \"share on X\".",
+      "file": "baoyu-post-to-x.zip",
+      "size": 34982,
+      "hash": "eb3ba1de2aacd632c5a16ba8d01315f3"
+    },
+    {
+      "name": "baoyu-xhs-images",
+      "description": "Generates Xiaohongshu (Little Red Book) infographic series with 10 visual styles and 8 layouts. Breaks content into 1-10 cartoon-style images optimized for XHS engagement. Use when user mentions \"小红书图片\", \"XHS images\", \"RedNote infographics\", \"小红书种草\", or wants social media infographics for Chinese platforms.",
+      "file": "baoyu-xhs-images.zip",
+      "size": 39052,
+      "hash": "b04881296a0d382577db4aaebc71c23f"
     },
     {
       "name": "best-practices-lookup",
-      "description": "方案设计前自动查询相关最佳实践，保存到项目 docs/best-practices/。触发词：\"查找最佳实践\"、\"best practices\"、\"最佳实践\"、\"设计模式\"、\"行业标准\"。在 req-project-dev-draft 阶段2自动触发。",
+      "description": ">",
       "file": "best-practices-lookup.zip",
-      "size": 2494,
-      "hash": "df42ede29328011e8ea6df0c60327ee3"
+      "size": 2641,
+      "hash": "3b0199e8cf5859d9fdff84ff6d9bb2d0"
     },
     {
       "name": "claude-md-maintainer",
       "description": "CLAUDE.md 维护规范（添加工具/技能、修改规则、精简审计）",
       "file": "claude-md-maintainer.zip",
-      "size": 328,
-      "hash": "8c193265baa3d4a13968d7449054a963"
+      "size": 2191,
+      "hash": "6ce8f23369ce810532d7bae0c56d0852"
     },
     {
       "name": "config-migrator",
-      "description": "Migrates Claude Code configurations to Codex CLI and Gemini CLI. Activates when users request configuration migration, including requests like \"migrate config\", \"sync to Codex\", \"sync to Gemini\", \"config migration\", or \"multi-CLI configuration\". Handles compatibility differences between the three CLI tools.",
+      "description": "Migrates Claude Code configurations to Codex CLI with an AI-first workflow (scan -> plan -> apply). Uses deterministic scanning/execution in Python and keeps high-level decisions in AI decision patches.",
       "file": "config-migrator.zip",
-      "size": 6495,
-      "hash": "b6a53f8cf6216814cceba43240d89565"
+      "size": 12472,
+      "hash": "7d6743347b5864205c76e1ff908e739b"
+    },
+    {
+      "name": "content-producer",
+      "description": ">",
+      "file": "content-producer.zip",
+      "size": 19127,
+      "hash": "9092b764fc1dc018cb1d1a592790519c"
+    },
+    {
+      "name": "diary-companion",
+      "description": ">",
+      "file": "diary-companion.zip",
+      "size": 8019,
+      "hash": "986f17e65917af6c847f273d765a8c3a"
     },
     {
       "name": "dify-workflow-builder",
@@ -51,11 +149,18 @@
       "hash": "dca361d965124efce136a95e2027e553"
     },
     {
+      "name": "doc-coauthoring",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "file": "doc-coauthoring.zip",
+      "size": 5904,
+      "hash": "2f815d3b66fde8e4f0647fc2a8a90c0a"
+    },
+    {
       "name": "document-suite",
       "description": "Unified document processing for DOCX, XLSX, PDF, PPTX. Create, read, edit documents with full support for text, images, tables, and formatting. Supports: (1) Word documents - create with docx-js, edit with OOXML, extract with pandoc; (2) Excel - create/edit with openpyxl, analyze with pandas; (3) PDF - extract with pdfplumber, create with reportlab, convert to images; (4) PowerPoint - create with html2pptx, edit OOXML, generate thumbnails. Use when working with Office files or PDFs.",
       "file": "document-suite.zip",
-      "size": 138136,
-      "hash": "b41ba822f2fcf7d81b8ff01e7e662bdc"
+      "size": 149601,
+      "hash": "ed0955dc7d2d4fc90d921ab87272b27d"
     },
     {
       "name": "find-skills",
@@ -68,15 +173,22 @@
       "name": "firecrawl",
       "description": "|",
       "file": "firecrawl.zip",
-      "size": 5095,
-      "hash": "be2d5340c67f96258a0ddca349835f98"
+      "size": 5387,
+      "hash": "4bbb01013efeecce40c6f517b5c4a42d"
+    },
+    {
+      "name": "freelance-advisor",
+      "description": "学生项目及私单技术顾问（云GPU成本版）。以双重身份（对内参谋+对外合伙人）帮助评估项目、制定报价策略、生成客户方案。对内：评估 Claude 胜任度、云GPU需求、防御性工时计算（200元/时底线）、分层报价建议。对外：用专业术语包装交付周期，生成可直接发送的技术实施书。触发词：私单、接单、报价、定价、项目评估、客户方案、工时评估、freelance、外包、技术方案书、谈单、云GPU成本。使用场景：(1) 收到新项目需求时评估是否值得接；(2) 需要给客户报价时；(3) 需要生成专业技术方案书时；(4) 涉及云GPU的项目成本评估；(5) 需要谈单策略和话术时；(6) 项目复盘时核算利润。",
+      "file": "freelance-advisor.zip",
+      "size": 10163,
+      "hash": "f3a86cff3c5de72817860f4a7cd18805"
     },
     {
       "name": "github-project-manager",
-      "description": "GitHub 项目全生命周期管理：仓库初始化（最佳实践结构）、并行 Agent 任务锁定协调、定时同步到 GitHub、PR/Issue 管理。触发词：GitHub管理、初始化仓库、同步到GitHub、任务锁定、agent协调、创建PR、GitHub最佳实践、仓库结构、agent-lock、periodic-sync。使用场景：(1) 新项目初始化（含 .github/ 模板、CI/CD、.gitignore）；(2) 多 Agent 并行开发时的任务锁定和 GitHub 同步；(3) 检查仓库是否符合最佳实践；(4) 创建 PR/Issue。",
+      "description": "GitHub 项目全生命周期管理 v2：仓库初始化、README 美化、分支保护、元数据设置、质量评分、Agent 协调、定时同步、PR/Issue 管理。触发词：GitHub管理、初始化仓库、美化仓库、README美化、分支保护、仓库质量、同步到GitHub、任务锁定、agent协调、创建PR、GitHub最佳实践、仓库结构。使用场景：(1) 新项目初始化（含 .github/ 模板、CI/CD、社区文件）；(2) README 美化（徽章、目录、结构化布局）；(3) 分支保护规则配置；(4) 仓库元数据设置（Topics/Description）；(5) 仓库质量评分；(6) 多 Agent 并行开发协调；(7) 创建 PR/Issue。",
       "file": "github-project-manager.zip",
-      "size": 11953,
-      "hash": "d8617381cdd295edede479f9d70043e0"
+      "size": 27208,
+      "hash": "b15ba79deda4502607f2222c7089f174"
     },
     {
       "name": "github-uploader",
@@ -93,11 +205,18 @@
       "hash": "e5ccd389ef2c8c0d67f32eec8d27e5e6"
     },
     {
+      "name": "humanizer-skill",
+      "description": "|",
+      "file": "humanizer-skill.zip",
+      "size": 13993,
+      "hash": "2d342fa784408fb0ecb9710080052cb1"
+    },
+    {
       "name": "image-generator",
-      "description": "Generates AI images using Gemini API with requirement confirmation workflow. Activates when users request image generation, including requests like \"generate an image\", \"create a picture\", \"draw something\", or \"AI image generation\". Supports academic diagram mode for publication-quality scientific figures. Requires confirming purpose, content, style, and aspect ratio before generation to avoid wasting API calls.",
+      "description": ">",
       "file": "image-generator.zip",
-      "size": 7520,
-      "hash": "4ff3c191b2ef7d32c26de4314ceb386a"
+      "size": 12001,
+      "hash": "e9c8a6195f964f01654f685fc343922b"
     },
     {
       "name": "library-researcher",
@@ -107,18 +226,25 @@
       "hash": "135e9b49e1b44ff2f8bd6213d34e43ce"
     },
     {
+      "name": "meigen-design",
+      "description": ">-",
+      "file": "meigen-design.zip",
+      "size": 2197,
+      "hash": "1b9806c22c9e1a2b9d1f948177b642ae"
+    },
+    {
       "name": "mineru-transfer",
       "description": "MinerU 文档转换工具（基于 VLM 的高质量 OCR）。支持 PDF、DOCX、PPT、图片、HTML → Markdown。当用户需要：(1) 提取 PDF/文档内容为 Markdown；(2) 转换 Word/PPT 为可编辑文本；(3) OCR 识别图片中的文字；(4) 保存网页为 Markdown 时使用此技能。触发词：mineru、pdf转markdown、文档提取、ocr识别。",
       "file": "mineru-transfer.zip",
-      "size": 4177,
-      "hash": "c7a7c50895df45e92a4d89a6e38bbfe0"
+      "size": 5269,
+      "hash": "7daa474ad43de0941ec52739b7cc6b96"
     },
     {
       "name": "multi-model-collaborator",
-      "description": "Enables multi-AI collaboration by integrating Codex and Gemini calling methods. Supports independent task delegation or parallel multi-model verification. Activates when users request multi-model collaboration, AI collaboration, or mention Codex/Gemini. Useful for complex problems requiring diverse AI perspectives or validation.",
+      "description": "多模型协作技能（Team 嵌套并行模式）。通过 Team 机制将 Codex 作为持久团队成员，支持双向通信、多轮追问、Squad Leader 裂变并行。激活词：多模型协作、AI协作、Codex协作、多模型验证。",
       "file": "multi-model-collaborator.zip",
-      "size": 4047,
-      "hash": "a6a121ad25efb1c1e6a6ec25f082e775"
+      "size": 3962,
+      "hash": "4d080a2a4ca2d72f0e30d92d37e9b575"
     },
     {
       "name": "notebooklm",
@@ -131,8 +257,15 @@
       "name": "paper-composer",
       "description": "|",
       "file": "paper-composer.zip",
-      "size": 6646,
-      "hash": "8921c23e0d543a97c0d048a005a042f7"
+      "size": 6794,
+      "hash": "666509ede55945f0120d1cf1ac1b1078"
+    },
+    {
+      "name": "playground",
+      "description": "Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something visually through controls, see a live preview, and copy out a prompt. Use when the user asks to make a playground, explorer, or interactive tool for a topic.",
+      "file": "playground.zip",
+      "size": 14501,
+      "hash": "187164614d0ab3585974edc9b0a914fd"
     },
     {
       "name": "project-zip",
@@ -143,24 +276,38 @@
     },
     {
       "name": "req-project-dev-draft",
-      "description": "Guides projects from requirements to development through an outcome-driven workflow (outcome alignment, deliverable interview, solution research, multi-model collaboration, validation planning, specification generation, continuous development). Deeply explores user expectations, establishes outcome-deliverable mapping, and generates comprehensive specification with validation matrix. Activates on requests like \"requirement analysis\", \"technical solution\", \"new project\", \"start planning\", or \"migrate to outcome-driven\".",
+      "description": ">",
       "file": "req-project-dev-draft.zip",
-      "size": 20127,
-      "hash": "c2b1c6d2ade9525b9ba87a00b6500cfa"
+      "size": 20263,
+      "hash": "ed6d466a21aa2d44c6b5643506aacb02"
+    },
+    {
+      "name": "results-driven-rl",
+      "description": "效果驱动的强化学习实验开发。优先保证训练收敛、结果好看、图表可用于论文，不深究实现细节。当用户需要：(1) 开发RL实验代码并产出论文级结果；(2) 诊断训练不收敛/奖励异常/约束违反率过高；(3) 调参使结果符合预期表格；(4) 生成学术图表（收敛曲线、对比表、调度图）时使用。触发词：RL实验、强化学习训练、训练不收敛、奖励调参、效果驱动、论文实验、PPO调参、MAPPO实验、收敛曲线、算法对比。",
+      "file": "results-driven-rl.zip",
+      "size": 9217,
+      "hash": "4fe26fefe34708bbca9172e5d8686337"
+    },
+    {
+      "name": "sci-hub-downloader",
+      "description": "Sci-Hub文献PDF下载工具。使用Playwright浏览器MCP通过Sci-Hub镜像下载学术文献PDF，自动处理镜像切换、PDF提取和文件重命名。适用于从DOI或论文列表批量下载文献。触发词：sci-hub下载、文献下载、论文PDF、从DOI下载、批量下载文献。",
+      "file": "sci-hub-downloader.zip",
+      "size": 2601,
+      "hash": "237adb215ade32b38c781706fd4abe1b"
     },
     {
       "name": "simulink-model-builder",
-      "description": "Builds MATLAB Simulink models programmatically with cross-version compatibility (R2016b~R2024b+). Activates when users request Simulink model creation, encounter \"no block named 'powerlib/xxx'\" errors, need programmatic model generation (add_block/set_param/add_line), work with Simscape Electrical simulations (power electronics/motor drives/switching power supplies), or face port connection errors. Resolves module path compatibility issues across different MATLAB versions.",
+      "description": "Builds MATLAB Simulink models programmatically with cross-version compatibility (R2016b~R2025a+). Activates when users request Simulink model creation, encounter \"no block named 'powerlib/xxx'\" errors, need programmatic model generation (add_block/set_param/add_line), work with Simscape Electrical simulations (power electronics/motor drives/switching power supplies), face port connection errors, need model beautification/layout, or want to reuse mature library modules. Resolves module path compatibility, automates model layout, and provides intelligent module reuse decisions.",
       "file": "simulink-model-builder.zip",
-      "size": 7328,
-      "hash": "8c71d84bf5738806433f8766d1bbac0a"
+      "size": 47900,
+      "hash": "605a85a66fae59c17957fca2bca51bf2"
     },
     {
       "name": "skill-creator",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
       "file": "skill-creator.zip",
-      "size": 63473,
-      "hash": "f43190bf446a8f9a949934a54daaa3f9"
+      "size": 68146,
+      "hash": "ac0fa4e7e5f93566fc1c9d3d79828cfa"
     },
     {
       "name": "skill-zip-sync",
@@ -168,6 +315,20 @@
       "file": "skill-zip-sync.zip",
       "size": 6686,
       "hash": "a9cc816a72829cd5c9ec0f7ccd4a05a5"
+    },
+    {
+      "name": "ssh-file-transfer",
+      "description": ">",
+      "file": "ssh-file-transfer.zip",
+      "size": 6370,
+      "hash": "1e944467f975573ffbf50a2c861677b9"
+    },
+    {
+      "name": "system-self-iterator",
+      "description": "系统进化引擎 ⚡ — 双入口（日记洞察 + 外部文章），通过三透镜深度分析驱动 Claude Code 系统持续进化。维护系统状态快照，确认后自动执行改进。触发词：系统迭代、自迭代、分析推特、分析文章、系统改进、系统进化、学习这篇文章、从文章中学习、系统升级。",
+      "file": "system-self-iterator.zip",
+      "size": 6514,
+      "hash": "8b23fab2e9c65675a658bec64003d750"
     },
     {
       "name": "systematic-debugging",
@@ -178,10 +339,10 @@
     },
     {
       "name": "test-driven-development",
-      "description": "Enforces test-driven development methodology before implementing features or fixing bugs. Mandates RED-GREEN-REFACTOR cycle (write failing test, observe failure, write minimal code to pass, refactor). Activates on requests like \"write code\", \"implement feature\", \"fix bug\", or \"develop\". Ensures code quality through test-first approach.",
+      "description": ">",
       "file": "test-driven-development.zip",
-      "size": 2635,
-      "hash": "e1408e3a570c9eed78ccc0579a397d4a"
+      "size": 2843,
+      "hash": "b04ed00f1fb3ee2eaa16b090019ff8fc"
     },
     {
       "name": "threejs-suite",
@@ -192,10 +353,17 @@
     },
     {
       "name": "ui-ux-pro-max",
-      "description": "UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples.",
+      "description": ">",
       "file": "ui-ux-pro-max.zip",
-      "size": 117136,
-      "hash": "5f36d25f3593402c5f1b17ecfbfee9d2"
+      "size": 123483,
+      "hash": "376df3c73b4382edf8acb65766c2c26a"
+    },
+    {
+      "name": "vault-layer-manager",
+      "description": ">",
+      "file": "vault-layer-manager.zip",
+      "size": 6899,
+      "hash": "3e7e97e4374be2924b84709609654006"
     },
     {
       "name": "verification-before-completion",
@@ -206,10 +374,10 @@
     },
     {
       "name": "video-wrapper",
-      "description": "为访谈视频添加综艺特效（花字、卡片、人物条、章节标题等）。支持 4 种视觉主题，先分析字幕内容生成建议供用户审批，再渲染视频。",
+      "description": "为访谈视频添加综艺特效（花字、卡片、人物条、章节标题等）。支持 4 种视觉主题，先分析字幕内容生成建议供用户审批，再渲染视频。内置手机友好字幕增强（放大字号、居中三行学习字幕、拼读分行）。",
       "file": "video-wrapper.zip",
-      "size": 75538,
-      "hash": "7c868d7cf16afacf85727d3ae992d884"
+      "size": 78643,
+      "hash": "4c835ee8538db8559615efb51b8c8f62"
     }
   ]
 }
