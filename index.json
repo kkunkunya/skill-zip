@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-17T01:55:48.436645",
+  "updated_at": "2026-02-17T17:41:43.607002",
   "skills": [
     {
       "name": "20-ml-paper-writing",
@@ -33,8 +33,8 @@
       "name": "autodl-deployer",
       "description": "AutoDL GPU云平台项目部署与迁移工具。默认交换路径：/root/autodl-fs/（上传下载都走这里，无data/子目录）。当用户需要：(1) 将本地PyTorch/深度学习项目迁移到AutoDL；(2) 生成AutoDL一键部署脚本；(3) 打包项目适配AutoDL环境；(4) 配置国内源加速和省钱策略时使用此技能。触发词：autodl、GPU租用、云GPU、深度学习部署、训练环境迁移、autodl部署。",
       "file": "autodl-deployer.zip",
-      "size": 17794,
-      "hash": "26f59205e4b0804dbcdc7e6af18871f6"
+      "size": 19508,
+      "hash": "7a991757bc422219fef35df1489bd7be"
     },
     {
       "name": "baoyu-article-illustrator",
@@ -121,6 +121,13 @@
       "hash": "6ce8f23369ce810532d7bae0c56d0852"
     },
     {
+      "name": "closed-loop-thinking",
+      "description": "闭环思维框架——指导 LLM 在任何技能执行中建立\"做了→验了→对了/改了\"的反馈闭环。 核心问题：你怎么知道自己做对了？有验收标准就复用，没有就创造一个。 触发词：闭环、验收标准、反馈循环、自验证、做对了吗、质量检查、acceptance criteria。 集成点：skill-creator 创建技能时自动引用本框架，确保新技能具备闭环能力。 NOT for：具体的代码测试验证（用 test-driven-development）/ 项目级完成验证（用 verification-before-completion）/ 调试排错（用 systematic-debugging）。 本技能是思维层面的框架，不替代具体的验证工具，而是在它们覆盖不到的地方补位。",
+      "file": "closed-loop-thinking.zip",
+      "size": 2601,
+      "hash": "6a7b72564eac6602329dd2a86638ba1c"
+    },
+    {
       "name": "config-migrator",
       "description": "Migrates Claude Code configurations to Codex CLI with an AI-first workflow (scan -> plan -> apply). Uses deterministic scanning/execution in Python and keeps high-level decisions in AI decision patches.",
       "file": "config-migrator.zip",
@@ -131,22 +138,22 @@
       "name": "content-producer",
       "description": "采访式内容生产技能（L0/L1/L2 三层架构）。 核心方法：AI 做编辑不做作者——通过采访捕捉用户原声，整理为平台适配内容。 一次采访，多平台分发。Voice Profile 持续积累，越用越懂你。 工作流：选题 → 检索L1 → 采访原声 → 多平台分发L2 → 复盘反哺L1。 触发词：记录选题、选题分析、素材查找、内容复盘、采访、分发、 视频规划、视频后期、内容创作、自媒体、发小红书、发推、写公众号、人设发现。 使用场景：(1) 记录碎片想法到选题池；(2) 采访式内容采集； (3) 一次采访多平台分发；(4) 视频规划+后期；(5) 复盘反哺L1；(6) 人设发现。 NOT for：写代码/技术文档/学术论文（用paper-composer）/日记深度分析（用diary-companion）/ L1洞察提炼（用vault-layer-manager）/简单文本编辑/翻译/格式转换。 本技能核心是「采访→分发」流程，不涉及采访的内容任务不要用这个。",
       "file": "content-producer.zip",
-      "size": 19127,
-      "hash": "9092b764fc1dc018cb1d1a592790519c"
+      "size": 20836,
+      "hash": "ff8ad829b5c5ca8b53a3364f60520b27"
     },
     {
       "name": "diary-companion",
       "description": "日记伴侣（显微镜 🔬）— 深度阅读一篇日记，通过采访式对话和三透镜思辨，与用户碰撞产生有价值的洞察。 触发词：日记分析、阅读建议、洞察提炼、思考伙伴、日记对话、链接分析、深入阅读、读日记。 NOT for：跨洞察全局梳理（用vault-layer-manager）/内容创作分发（用content-producer）/ 系统配置改进（用system-self-iterator）/学术论文分析（用paper-composer）/ 普通文件阅读或代码审查。 本技能只处理L0日记的深度思辨，一次一篇，不做跨文档分析。",
       "file": "diary-companion.zip",
-      "size": 8019,
-      "hash": "986f17e65917af6c847f273d765a8c3a"
+      "size": 9805,
+      "hash": "a895e959a6d45002d6a29e2479226979"
     },
     {
       "name": "dify-workflow-builder",
       "description": "Dify 智能体工作流创建与优化专家。用于：(1) 创建新的 Dify Workflow/Chatflow 应用 YAML 配置；(2) 优化现有 Dify 工作流的节点设计、Prompt 模板、变量传递；(3) 分析和调试 Dify DSL 文件；(4) 设计多节点 RAG、意图识别、多维度分析等复杂工作流。 触发场景：用户提到 Dify、工作流设计、智能体创建、DSL/YAML 配置、节点编排、Prompt 优化等关键词时使用。",
       "file": "dify-workflow-builder.zip",
-      "size": 7639,
-      "hash": "dca361d965124efce136a95e2027e553"
+      "size": 9272,
+      "hash": "6248a19a79e5eed1ee5ecffc629a76dd"
     },
     {
       "name": "doc-coauthoring",
@@ -187,8 +194,8 @@
       "name": "github-project-manager",
       "description": "GitHub 项目全生命周期管理 v2：仓库初始化、README 美化、分支保护、元数据设置、质量评分、Agent 协调、定时同步、PR/Issue 管理。触发词：GitHub管理、初始化仓库、美化仓库、README美化、分支保护、仓库质量、同步到GitHub、任务锁定、agent协调、创建PR、GitHub最佳实践、仓库结构。使用场景：(1) 新项目初始化（含 .github/ 模板、CI/CD、社区文件）；(2) README 美化（徽章、目录、结构化布局）；(3) 分支保护规则配置；(4) 仓库元数据设置（Topics/Description）；(5) 仓库质量评分；(6) 多 Agent 并行开发协调；(7) 创建 PR/Issue。",
       "file": "github-project-manager.zip",
-      "size": 27208,
-      "hash": "b15ba79deda4502607f2222c7089f174"
+      "size": 28622,
+      "hash": "6ff3ed74e44ef1fd87cc2f44366476f3"
     },
     {
       "name": "github-uploader",
@@ -215,15 +222,15 @@
       "name": "image-generator",
       "description": "Generates AI images using Gemini API with requirement confirmation workflow. Activates when users request image generation, including requests like \"generate an image\", \"create a picture\", \"draw something\", or \"AI image generation\". Supports academic diagram mode for publication-quality scientific figures. Requires confirming purpose, content, style, and aspect ratio before generation to avoid wasting API calls. NOT for：创意设计图（产品图/Logo/海报/品牌→用meigen-design）/ 文章配图（用baoyu-article-illustrator）/小红书图片（用baoyu-xhs-images）/ 信息图（用baoyu-infographic）/封面图（用baoyu-cover-image）/ 通用多源图像生成（用baoyu-image-gen）。 本技能专注学术科研图像（IEEE图表/MATLAB仿真/实验平台/科研海报），其他图像需求请用对应专用技能。",
       "file": "image-generator.zip",
-      "size": 12001,
-      "hash": "e9c8a6195f964f01654f685fc343922b"
+      "size": 13843,
+      "hash": "218d9d984cdfa024f003612078edec2c"
     },
     {
       "name": "library-researcher",
       "description": "学术文献搜索下载工具。确认VPN登录后，在学校发现系统批量检索下载，智能记录成功/失败文献。",
       "file": "library-researcher.zip",
-      "size": 5847,
-      "hash": "135e9b49e1b44ff2f8bd6213d34e43ce"
+      "size": 7623,
+      "hash": "183dbc91fdfcfe7aea06f1d0bd00ce5c"
     },
     {
       "name": "meigen-design",
@@ -257,8 +264,8 @@
       "name": "paper-composer",
       "description": "学术论文写作与构思技能。基于核心参考论文分析，结合 academic-research-skills 生成详细写作思路，按章节推进论文撰写并进行反思优化。 触发词：论文写作、写论文、论文构思、章节撰写、论文反思、写作思路、论文大纲、开始写论文。 使用场景：(1) 分析参考论文结构和写法；(2) 生成论文写作思路文档；(3) 按章节撰写论文；(4) 每章完成后反思优化。 前置条件：已完成 literature-scout 调研并下载论文，已用 mineru-transfer 转换为 Markdown。 NOT for：非学术写作（博客/社交媒体/技术文档用content-producer）/文献搜索下载（用library-researcher）/ PDF转换（用mineru-transfer）/科研数据分析（用academic-research-skills）/降重润色（用ai-deweight）。 本技能只做「论文构思+撰写」，不做前置调研和后置润色。",
       "file": "paper-composer.zip",
-      "size": 6794,
-      "hash": "666509ede55945f0120d1cf1ac1b1078"
+      "size": 8622,
+      "hash": "9ac3effa1235b8510875573ea87a9461"
     },
     {
       "name": "playground",
@@ -285,8 +292,8 @@
       "name": "results-driven-rl",
       "description": "效果驱动的强化学习实验开发。优先保证训练收敛、结果好看、图表可用于论文，不深究实现细节。当用户需要：(1) 开发RL实验代码并产出论文级结果；(2) 诊断训练不收敛/奖励异常/约束违反率过高；(3) 调参使结果符合预期表格；(4) 生成学术图表（收敛曲线、对比表、调度图）时使用。触发词：RL实验、强化学习训练、训练不收敛、奖励调参、效果驱动、论文实验、PPO调参、MAPPO实验、收敛曲线、算法对比。",
       "file": "results-driven-rl.zip",
-      "size": 9217,
-      "hash": "4fe26fefe34708bbca9172e5d8686337"
+      "size": 11205,
+      "hash": "bfd606cf63ed1d259f21064db8dc49e8"
     },
     {
       "name": "sci-hub-downloader",
@@ -299,15 +306,15 @@
       "name": "simulink-model-builder",
       "description": "Builds MATLAB Simulink models programmatically with cross-version compatibility (R2016b~R2025a+). Activates when users request Simulink model creation, encounter \"no block named 'powerlib/xxx'\" errors, need programmatic model generation (add_block/set_param/add_line), work with Simscape Electrical simulations (power electronics/motor drives/switching power supplies), face port connection errors, need model beautification/layout, or want to reuse mature library modules. Resolves module path compatibility, automates model layout, and provides intelligent module reuse decisions.",
       "file": "simulink-model-builder.zip",
-      "size": 47900,
-      "hash": "605a85a66fae59c17957fca2bca51bf2"
+      "size": 50864,
+      "hash": "5728529ae810162c09e80ba09b0b6b8e"
     },
     {
       "name": "skill-creator",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
       "file": "skill-creator.zip",
-      "size": 68146,
-      "hash": "ac0fa4e7e5f93566fc1c9d3d79828cfa"
+      "size": 70174,
+      "hash": "fb5da3e1cee13d55d534a52be2cb5170"
     },
     {
       "name": "skill-zip-sync",
@@ -320,8 +327,8 @@
       "name": "ssh-file-transfer",
       "description": "SSH 远程文件同步技能（稳健多轨策略）。AutoDL默认交换路径：/root/autodl-tmp/（上传下载都走这里）。 路线A：小改动通过 SSH exec 短命令（sed/python）直接修改远端代码，命令短、可靠。 路线B：大改动本地打包后生成 scp 命令给用户手动执行，scp 原生校验、可靠。 路线C：从远端下载文件/目录到本地。 路线D：小文件多的目录用 tar 流式传输（官方推荐高级方法）。 触发场景：(1) 需要将本地文件同步到 SSH 服务器；(2) 需要从 SSH 服务器下载文件； (3) 需要在远端修改几行代码；(4) 使用 mcp__ssh-mcp__exec 同步代码； (5) 用户说\"传文件到服务器\"、\"同步到SSH\"、\"改远端代码\"、\"从服务器拉文件\"。 关键词：SSH传输、文件上传、文件下载、SSH同步、远程修改、scp、tar流式。",
       "file": "ssh-file-transfer.zip",
-      "size": 6370,
-      "hash": "1e944467f975573ffbf50a2c861677b9"
+      "size": 6605,
+      "hash": "6cf68b101ac71c0a8d59c01c0ba2f65b"
     },
     {
       "name": "system-self-iterator",
@@ -355,15 +362,8 @@
       "name": "ui-ux-pro-max",
       "description": "UI/UX design intelligence with AI-native app support. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks + AI app patterns (via ai-elements). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, AI chatbot, AI assistant, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart, message, conversation, prompt-input, tool-display. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient, streaming UI, AI interaction patterns. Integrations: shadcn/ui MCP, ai-elements (Vercel) for AI-native components. NOT for：后端逻辑/API开发/数据库操作/纯业务逻辑代码/ 非UI的Python脚本/命令行工具开发/学术图表（用academic-research-skills或image-generator）/ 简单的markdown编辑或文本处理。 本技能只处理视觉设计和UI组件，不涉及后端或非视觉逻辑。",
       "file": "ui-ux-pro-max.zip",
-      "size": 123483,
-      "hash": "376df3c73b4382edf8acb65766c2c26a"
-    },
-    {
-      "name": "vault-layer-manager",
-      "description": "思考花园的园丁 🔭 — 从 diary-companion 的深度对话记录中提炼 L1 洞察，与用户深度讨论选题方向。可选：全局花园梳理。 触发词：花园梳理、全局分析、洞察关联、资产管理、L2策展、vault管理、分层管理、L0提炼、资产提炼、洞察提炼。 NOT for：单篇日记深度分析（用diary-companion）/内容创作分发（用content-producer）/ 系统配置改进（用system-self-iterator）/普通文件管理或代码操作。 本技能只处理Obsidian知识花园的L1洞察提炼和全局梳理，不做单篇深读也不做内容分发。",
-      "file": "vault-layer-manager.zip",
-      "size": 6899,
-      "hash": "3e7e97e4374be2924b84709609654006"
+      "size": 125338,
+      "hash": "73755d78a92bdd7236ca50f58c287d3e"
     },
     {
       "name": "verification-before-completion",
