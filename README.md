@@ -1,6 +1,6 @@
 # 🧩 Skill ZIP Repository
 
-![skills](https://img.shields.io/badge/skills-58-blue) ![updated](https://img.shields.io/badge/updated-2026--2--22-green) ![size](https://img.shields.io/badge/total-26MB-orange)
+![skills](https://img.shields.io/badge/skills-59-blue) ![updated](https://img.shields.io/badge/updated-2026--2--22-green) ![size](https://img.shields.io/badge/total-26MB-orange)
 
 Claude Code / Codex / Gemini CLI 技能集中仓库 — 每个 skill 独立 ZIP 打包，按需下载安装。
 
@@ -129,10 +129,11 @@ SKILL=ui-ux-pro-max && curl -L "https://github.com/kkunkunya/skill-zip/raw/main/
 | Skill | 描述 | 大小 | 下载 |
 |-------|------|------|------|
 | closed-loop-thinking | 闭环思维框架——指导 LLM 在任何技能执行中建立"做了→验了→对了/改了"的反馈闭环。 核心问题：你怎么知道自己做对了？有验收标准就复用，没有就创造一个... | 3KB | [下载](closed-loop-thinking.zip) |
+| delivery-quality-gate | Cross-deliverable customer handoff quality gate. Use before any client demo o... | 3KB | [下载](delivery-quality-gate.zip) |
 | nanobanana-ppt-skills | 基于 AI 自动生成高质量 PPT 图片和视频，支持智能转场和交互式播放。 | 2.6MB | [下载](nanobanana-ppt-skills.zip) |
 | project-handoff-closedloop | Prompt-led project cleanup and customer handoff workflow. Use when a project ... | 3KB | [下载](project-handoff-closedloop.zip) |
 | remotion | Best practices for Remotion - Video creation in React | 47KB | [下载](remotion.zip) |
 
 ---
 
-*最后更新: 2026-02-22 01:25:20*
+*最后更新: 2026-02-22 01:52:45*

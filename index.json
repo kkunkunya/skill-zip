@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-22T01:25:20.314295",
+  "updated_at": "2026-02-22T01:52:45.327999",
   "skills": [
     {
       "name": "20-ml-paper-writing",
@@ -140,6 +140,13 @@
       "file": "content-producer.zip",
       "size": 25941,
       "hash": "cf09e696ff3088568b833dbfac984810"
+    },
+    {
+      "name": "delivery-quality-gate",
+      "description": "Cross-deliverable customer handoff quality gate. Use before any client demo or delivery to run an expectation-driven PASS/FAIL audit across all deliverables (code, results, charts, docs, media, models, package structure), then execute review-fix-review loops until pass. Triggers: 交付前检查, 质量门控, 客户验收前, 可交付吗, 审查交付物, 图表审查, handoff quality gate. NOT for feature development, training execution, or large refactoring.",
+      "file": "delivery-quality-gate.zip",
+      "size": 3312,
+      "hash": "bc4243200e00ed5cd0d18b45b95cf343"
     },
     {
       "name": "diary-companion",
@@ -285,8 +292,8 @@
       "name": "project-handoff-closedloop",
       "description": "Prompt-led project cleanup and customer handoff workflow. Use when a project is finished or the workspace becomes messy and you need to organize files, remove stale artifacts safely, preserve runnable code/results, and prepare a clear delivery package. Triggers include: 整理项目, 交付整理, 项目文件夹乱了, 项目收尾, 清理旧日志, 打包交付. NOT for feature implementation, bug fixing, or initial project scaffolding.",
       "file": "project-handoff-closedloop.zip",
-      "size": 2900,
-      "hash": "7cc7fd7db24618759d71e8e4f227e520"
+      "size": 3046,
+      "hash": "2b191c13e033c42084ef646121c2fe27"
     },
     {
       "name": "project-zip",
