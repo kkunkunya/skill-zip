@@ -1,6 +1,6 @@
 # 🧩 Skill ZIP Repository
 
-![skills](https://img.shields.io/badge/skills-54-blue) ![updated](https://img.shields.io/badge/updated-2026--2--17-green) ![size](https://img.shields.io/badge/total-23MB-orange)
+![skills](https://img.shields.io/badge/skills-58-blue) ![updated](https://img.shields.io/badge/updated-2026--2--22-green) ![size](https://img.shields.io/badge/total-26MB-orange)
 
 Claude Code / Codex / Gemini CLI 技能集中仓库 — 每个 skill 独立 ZIP 打包，按需下载安装。
 
@@ -37,8 +37,9 @@ SKILL=ui-ux-pro-max && curl -L "https://github.com/kkunkunya/skill-zip/raw/main/
 
 | Skill | 描述 | 大小 | 下载 |
 |-------|------|------|------|
-| content-producer | 采访式内容生产技能（L0/L1/L2 三层架构）。 核心方法：AI 做编辑不做作者——通过采访捕捉用户原声，整理为平台适配内容。 一次采访，多平台分发。V... | 20KB | [下载](content-producer.zip) |
-| diary-companion | 日记伴侣（显微镜 🔬）— 深度阅读一篇日记，通过采访式对话和三透镜思辨，与用户碰撞产生有价值的洞察。 触发词：日记分析、阅读建议、洞察提炼、思考伙伴、日记... | 10KB | [下载](diary-companion.zip) |
+| content-producer | 采访式内容生产技能（L0/L1/L2 三层架构）。 核心方法：AI 做编辑不做作者——通过采访捕捉用户原声，整理为平台适配内容。 一次采访，多平台分发。V... | 25KB | [下载](content-producer.zip) |
+| diary-companion | 日记伴侣（显微镜 🔬）— 深度阅读一篇日记，通过采访式对话和三角度深度思考，与用户碰撞产生有价值的洞察。 触发词：日记分析、阅读建议、洞察提炼、思考伙伴、... | 10KB | [下载](diary-companion.zip) |
+| vault-layer-manager | 思考花园的园丁 🔭 — 从 diary-companion 的深度对话记录中提炼 L1 知识资产， 与用户深度讨论选题方向和知识组织。主要由 diary-... | 4KB | [下载](vault-layer-manager.zip) |
 | humanizer-skill | Remove signs of AI-generated writing from text. Use when editing or reviewing... | 14KB | [下载](humanizer-skill.zip) |
 | doc-coauthoring | Guide users through a structured workflow for co-authoring documentation. Use... | 6KB | [下载](doc-coauthoring.zip) |
 | baoyu-format-markdown | Formats plain text or markdown files with frontmatter, titles, summaries, hea... | 16KB | [下载](baoyu-format-markdown.zip) |
@@ -48,13 +49,13 @@ SKILL=ui-ux-pro-max && curl -L "https://github.com/kkunkunya/skill-zip/raw/main/
 
 | Skill | 描述 | 大小 | 下载 |
 |-------|------|------|------|
-| ui-ux-pro-max | UI/UX design intelligence with AI-native app support. 50 styles, 21 palettes,... | 122KB | [下载](ui-ux-pro-max.zip) |
+| ui-ux-pro-max | UI/UX design intelligence for web and AI-native interfaces. Covers style plan... | 122KB | [下载](ui-ux-pro-max.zip) |
 | image-generator | Generates AI images using Gemini API with requirement confirmation workflow. ... | 14KB | [下载](image-generator.zip) |
 | baoyu-image-gen | AI image generation with OpenAI, Google and DashScope APIs. Supports text-to-... | 14KB | [下载](baoyu-image-gen.zip) |
 | meigen-design | 创意设计图像生成技能（基于 MeiGen MCP）。用于产品图、Logo、海报、品牌设计、 社交媒体配图等创意类图像生成。提供 1300+ prompt ... | 2KB | [下载](meigen-design.zip) |
 | baoyu-infographic | Generates professional infographics with 20 layout types and 17 visual styles... | 33KB | [下载](baoyu-infographic.zip) |
 | baoyu-xhs-images | Generates Xiaohongshu (Little Red Book) infographic series with 10 visual sty... | 38KB | [下载](baoyu-xhs-images.zip) |
-| baoyu-cover-image | Generates article cover images with 5 dimensions (type, palette, rendering, t... | 39KB | [下载](baoyu-cover-image.zip) |
+| baoyu-cover-image | Generates article cover images with 5 dimensions (type, palette, rendering, t... | 46KB | [下载](baoyu-cover-image.zip) |
 | baoyu-article-illustrator | Analyzes article structure, identifies positions requiring visual aids, gener... | 39KB | [下载](baoyu-article-illustrator.zip) |
 | playground | Creates interactive HTML playgrounds — self-contained single-file explorers t... | 14KB | [下载](playground.zip) |
 
@@ -97,7 +98,7 @@ SKILL=ui-ux-pro-max && curl -L "https://github.com/kkunkunya/skill-zip/raw/main/
 |-------|------|------|------|
 | claude-md-maintainer | CLAUDE.md 维护规范（添加工具/技能、修改规则、精简审计） | 2KB | [下载](claude-md-maintainer.zip) |
 | system-self-iterator | 系统进化引擎 ⚡ — 双入口（日记洞察 + 外部文章），通过三透镜深度分析驱动 Claude Code 系统持续进化。维护系统状态快照，确认后自动执行改进... | 6KB | [下载](system-self-iterator.zip) |
-| config-migrator | Migrates Claude Code configurations to Codex CLI with an AI-first workflow (s... | 12KB | [下载](config-migrator.zip) |
+| config-migrator | Migrates Claude Code configurations to Codex CLI with an AI-first workflow (u... | 14KB | [下载](config-migrator.zip) |
 | autodl-deployer | AutoDL GPU云平台项目部署与迁移工具。默认交换路径：/root/autodl-fs/（上传下载都走这里，无data/子目录）。当用户需要：(1) ... | 19KB | [下载](autodl-deployer.zip) |
 | ssh-file-transfer | SSH 远程文件同步技能（稳健多轨策略）。AutoDL默认交换路径：/root/autodl-tmp/（上传下载都走这里）。 路线A：小改动通过 SSH ... | 6KB | [下载](ssh-file-transfer.zip) |
 | firecrawl | Firecrawl handles all web operations with superior accuracy, speed, and LLM-o... | 5KB | [下载](firecrawl.zip) |
@@ -128,7 +129,10 @@ SKILL=ui-ux-pro-max && curl -L "https://github.com/kkunkunya/skill-zip/raw/main/
 | Skill | 描述 | 大小 | 下载 |
 |-------|------|------|------|
 | closed-loop-thinking | 闭环思维框架——指导 LLM 在任何技能执行中建立"做了→验了→对了/改了"的反馈闭环。 核心问题：你怎么知道自己做对了？有验收标准就复用，没有就创造一个... | 3KB | [下载](closed-loop-thinking.zip) |
+| nanobanana-ppt-skills | 基于 AI 自动生成高质量 PPT 图片和视频，支持智能转场和交互式播放。 | 2.6MB | [下载](nanobanana-ppt-skills.zip) |
+| project-handoff-closedloop | Prompt-led project cleanup and customer handoff workflow. Use when a project ... | 3KB | [下载](project-handoff-closedloop.zip) |
+| remotion | Best practices for Remotion - Video creation in React | 47KB | [下载](remotion.zip) |
 
 ---
 
-*最后更新: 2026-02-17 17:41:43*
+*最后更新: 2026-02-22 01:25:20*

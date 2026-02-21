@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-17T17:41:43.607002",
+  "updated_at": "2026-02-22T01:25:20.314295",
   "skills": [
     {
       "name": "20-ml-paper-writing",
@@ -47,8 +47,8 @@
       "name": "baoyu-cover-image",
       "description": "Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 9 color palettes and 6 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use when user asks to \"generate cover image\", \"create article cover\", or \"make cover\".",
       "file": "baoyu-cover-image.zip",
-      "size": 40368,
-      "hash": "d8d7dc01535cd5ffd3f45fb3fb6c7ded"
+      "size": 47095,
+      "hash": "b4af5eca99ac59cc7741dfa8195790fd"
     },
     {
       "name": "baoyu-danger-x-to-markdown",
@@ -129,24 +129,24 @@
     },
     {
       "name": "config-migrator",
-      "description": "Migrates Claude Code configurations to Codex CLI with an AI-first workflow (scan -> plan -> apply). Uses deterministic scanning/execution in Python and keeps high-level decisions in AI decision patches.",
+      "description": "Migrates Claude Code configurations to Codex CLI with an AI-first workflow (understand -> scan -> plan -> apply). Uses dual-source system understanding (system snapshot document + live codebase exploration) for informed migration decisions. Deterministic scanning/execution in Python, high-level semantic decisions by AI. NOT for: general system documentation (use system-self-iterator) / skill creation (use skill-creator) / hook management (use hooks-manager).",
       "file": "config-migrator.zip",
-      "size": 12472,
-      "hash": "7d6743347b5864205c76e1ff908e739b"
+      "size": 14184,
+      "hash": "46c10d9696871ac83bfc20ff4ba0fc4f"
     },
     {
       "name": "content-producer",
       "description": "采访式内容生产技能（L0/L1/L2 三层架构）。 核心方法：AI 做编辑不做作者——通过采访捕捉用户原声，整理为平台适配内容。 一次采访，多平台分发。Voice Profile 持续积累，越用越懂你。 工作流：选题 → 检索L1 → 采访原声 → 多平台分发L2 → 复盘反哺L1。 触发词：记录选题、选题分析、素材查找、内容复盘、采访、分发、 视频规划、视频后期、内容创作、自媒体、发小红书、发推、写公众号、人设发现。 使用场景：(1) 记录碎片想法到选题池；(2) 采访式内容采集； (3) 一次采访多平台分发；(4) 视频规划+后期；(5) 复盘反哺L1；(6) 人设发现。 NOT for：写代码/技术文档/学术论文（用paper-composer）/日记深度分析（用diary-companion）/ L1洞察提炼（用vault-layer-manager）/简单文本编辑/翻译/格式转换。 本技能核心是「采访→分发」流程，不涉及采访的内容任务不要用这个。",
       "file": "content-producer.zip",
-      "size": 20836,
-      "hash": "ff8ad829b5c5ca8b53a3364f60520b27"
+      "size": 25941,
+      "hash": "cf09e696ff3088568b833dbfac984810"
     },
     {
       "name": "diary-companion",
-      "description": "日记伴侣（显微镜 🔬）— 深度阅读一篇日记，通过采访式对话和三透镜思辨，与用户碰撞产生有价值的洞察。 触发词：日记分析、阅读建议、洞察提炼、思考伙伴、日记对话、链接分析、深入阅读、读日记。 NOT for：跨洞察全局梳理（用vault-layer-manager）/内容创作分发（用content-producer）/ 系统配置改进（用system-self-iterator）/学术论文分析（用paper-composer）/ 普通文件阅读或代码审查。 本技能只处理L0日记的深度思辨，一次一篇，不做跨文档分析。",
+      "description": "日记伴侣（显微镜 🔬）— 深度阅读一篇日记，通过采访式对话和三角度深度思考，与用户碰撞产生有价值的洞察。 触发词：日记分析、阅读建议、洞察提炼、思考伙伴、日记对话、链接分析、深入阅读、读日记。 NOT for：跨洞察全局梳理（用vault-layer-manager）/内容创作分发（用content-producer）/ 系统配置改进（用system-self-iterator）/学术论文分析（用paper-composer）/ 普通文件阅读或代码审查。 本技能只处理L0日记的深度思辨，一次一篇，不做跨文档分析。",
       "file": "diary-companion.zip",
-      "size": 9805,
-      "hash": "a895e959a6d45002d6a29e2479226979"
+      "size": 10009,
+      "hash": "88bde8134983ce948e504db1f02cc8ac"
     },
     {
       "name": "dify-workflow-builder",
@@ -254,6 +254,13 @@
       "hash": "4d080a2a4ca2d72f0e30d92d37e9b575"
     },
     {
+      "name": "nanobanana-ppt-skills",
+      "description": "基于 AI 自动生成高质量 PPT 图片和视频，支持智能转场和交互式播放。",
+      "file": "nanobanana-ppt-skills.zip",
+      "size": 2735179,
+      "hash": "0c592a09967d7ebbc43d5127e346701b"
+    },
+    {
       "name": "notebooklm",
       "description": "Complete API for Google NotebookLM - full programmatic access including features not in the web UI. Create notebooks, add sources, generate all artifact types, download in multiple formats. Activates on explicit /notebooklm or intent like \"create a podcast about X\"",
       "file": "notebooklm.zip",
@@ -275,6 +282,13 @@
       "hash": "187164614d0ab3585974edc9b0a914fd"
     },
     {
+      "name": "project-handoff-closedloop",
+      "description": "Prompt-led project cleanup and customer handoff workflow. Use when a project is finished or the workspace becomes messy and you need to organize files, remove stale artifacts safely, preserve runnable code/results, and prepare a clear delivery package. Triggers include: 整理项目, 交付整理, 项目文件夹乱了, 项目收尾, 清理旧日志, 打包交付. NOT for feature implementation, bug fixing, or initial project scaffolding.",
+      "file": "project-handoff-closedloop.zip",
+      "size": 2900,
+      "hash": "7cc7fd7db24618759d71e8e4f227e520"
+    },
+    {
       "name": "project-zip",
       "description": "Intelligently compresses and packages projects into ZIP archives with environment setup guide. Analyzes project dependencies (Python/Node.js/Java), generates Chinese setup documentation with mirror source configurations for mainland China users, then packages with smart file exclusion. Activates when users request project compression, including requests like \"compress project\", \"package project\", \"archive project\", \"create zip\", \"zip project\", \"export project\", or \"project archiving\".",
       "file": "project-zip.zip",
@@ -282,11 +296,18 @@
       "hash": "b05758687d3c8557db5fc1f0c1d8b84d"
     },
     {
+      "name": "remotion",
+      "description": "Best practices for Remotion - Video creation in React",
+      "file": "remotion.zip",
+      "size": 48217,
+      "hash": "fae565b4c01ce6600c8e13b88b6494e2"
+    },
+    {
       "name": "req-project-dev-draft",
-      "description": "Guides projects from requirements to development through an outcome-driven workflow (outcome alignment, deliverable interview, solution research, multi-model collaboration, validation planning, specification generation, continuous development). Deeply explores user expectations, establishes outcome-deliverable mapping, and generates comprehensive specification with validation matrix. Activates on requests like \"requirement analysis\", \"technical solution\", \"new project\", \"start planning\", or \"migrate to outcome-driven\". NOT for：简单bug修复/单文件修改/已有明确指令的小任务/ 纯代码重构（不涉及需求变更）/日常维护性工作。 本技能用于「从零开始的项目规划」或「重大功能设计」，不是所有开发任务都需要走这个流程。",
+      "description": "Guides projects from requirements to development through an outcome-driven workflow (requirement interview, business logic review, codebase exploration via Plan Mode, solution research, validation planning, specification generation, continuous development). Deeply explores user expectations, establishes outcome-deliverable mapping, and generates comprehensive specification with validation matrix. Activates on requests like \"requirement analysis\", \"technical solution\", \"new project\", \"start planning\", or \"migrate to outcome-driven\". NOT for：简单bug修复/单文件修改/已有明确指令的小任务/ 纯代码重构（不涉及需求变更）/日常维护性工作。 本技能用于「从零开始的项目规划」或「重大功能设计」，不是所有开发任务都需要走这个流程。",
       "file": "req-project-dev-draft.zip",
-      "size": 20263,
-      "hash": "ed6d466a21aa2d44c6b5643506aacb02"
+      "size": 20367,
+      "hash": "034c2df47bc3afbf382c7c32cbe0a50e"
     },
     {
       "name": "results-driven-rl",
@@ -360,10 +381,17 @@
     },
     {
       "name": "ui-ux-pro-max",
-      "description": "UI/UX design intelligence with AI-native app support. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks + AI app patterns (via ai-elements). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, AI chatbot, AI assistant, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart, message, conversation, prompt-input, tool-display. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient, streaming UI, AI interaction patterns. Integrations: shadcn/ui MCP, ai-elements (Vercel) for AI-native components. NOT for：后端逻辑/API开发/数据库操作/纯业务逻辑代码/ 非UI的Python脚本/命令行工具开发/学术图表（用academic-research-skills或image-generator）/ 简单的markdown编辑或文本处理。 本技能只处理视觉设计和UI组件，不涉及后端或非视觉逻辑。",
+      "description": "UI/UX design intelligence for web and AI-native interfaces. Covers style planning, component/system design, implementation review, and UX optimization across HTML/Tailwind, React/Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, and shadcn. Includes guidance for product patterns (landing pages, dashboards, SaaS, e-commerce), visual systems (color, typography, spacing, motion, accessibility), chart choices, and AI interaction patterns (chat, message, prompt input, tool display). Integrates shadcn/ui MCP and ai-elements patterns. NOT for: backend/API/database logic, non-UI scripting/CLI tools, academic/scientific plotting, or generic markdown/text editing.",
       "file": "ui-ux-pro-max.zip",
-      "size": 125338,
-      "hash": "73755d78a92bdd7236ca50f58c287d3e"
+      "size": 125071,
+      "hash": "5a9f095aeb88be40afb65483a65421d2"
+    },
+    {
+      "name": "vault-layer-manager",
+      "description": "思考花园的园丁 🔭 — 从 diary-companion 的深度对话记录中提炼 L1 知识资产， 与用户深度讨论选题方向和知识组织。主要由 diary-companion 链式触发，也支持手动调用。 触发词：花园梳理、全局分析、洞察关联、资产管理、L2策展、vault管理、分层管理、 L0提炼、资产提炼、洞察提炼、整理日记、提炼L1。 NOT for：单篇日记深度思辨（用diary-companion）/内容创作分发（用content-producer）/ 系统配置改进（用system-self-iterator）/学术论文分析（用paper-composer）/ 普通文件阅读或代码审查。 本技能只做 L0→L1 的知识资产提炼和花园管理，不做 L2 内容分发。",
+      "file": "vault-layer-manager.zip",
+      "size": 4424,
+      "hash": "5da7c2da3b361c6b8115ee7729d0e759"
     },
     {
       "name": "verification-before-completion",
