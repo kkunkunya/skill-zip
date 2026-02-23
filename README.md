@@ -1,6 +1,6 @@
 # 🧩 Skill ZIP Repository
 
-![skills](https://img.shields.io/badge/skills-59-blue) ![updated](https://img.shields.io/badge/updated-2026--2--22-green) ![size](https://img.shields.io/badge/total-26MB-orange)
+![skills](https://img.shields.io/badge/skills-60-blue) ![updated](https://img.shields.io/badge/updated-2026--2--24-green) ![size](https://img.shields.io/badge/total-101MB-orange)
 
 Claude Code / Codex / Gemini CLI 技能集中仓库 — 每个 skill 独立 ZIP 打包，按需下载安装。
 
@@ -26,7 +26,7 @@ SKILL=ui-ux-pro-max && curl -L "https://github.com/kkunkunya/skill-zip/raw/main/
 |-------|------|------|------|
 | academic-research-skills | 学术科研综合技能包。整合 34 个核心科研技能，来源：K-Dense-AI (7800+ stars) + ChineseResearchLaTeX (7... | 21.7MB | [下载](academic-research-skills.zip) |
 | paper-composer | 学术论文写作与构思技能。基于核心参考论文分析，结合 academic-research-skills 生成详细写作思路，按章节推进论文撰写并进行反思优化。... | 8KB | [下载](paper-composer.zip) |
-| ai-deweight | Enhances academic writing originality and reduces AI detection scores using B... | 35KB | [下载](ai-deweight.zip) |
+| ai-deweight | Enhances academic writing originality and reduces AI detection scores using B... | 37KB | [下载](ai-deweight.zip) |
 | library-researcher | 学术文献搜索下载工具。确认VPN登录后，在学校发现系统批量检索下载，智能记录成功/失败文献。 | 7KB | [下载](library-researcher.zip) |
 | sci-hub-downloader | Sci-Hub文献PDF下载工具。使用Playwright浏览器MCP通过Sci-Hub镜像下载学术文献PDF，自动处理镜像切换、PDF提取和文件重命名。... | 3KB | [下载](sci-hub-downloader.zip) |
 | mineru-transfer | MinerU 文档转换工具（基于 VLM 的高质量 OCR）。支持 PDF、DOCX、PPT、图片、HTML → Markdown。当用户需要：(1) 提... | 5KB | [下载](mineru-transfer.zip) |
@@ -49,7 +49,7 @@ SKILL=ui-ux-pro-max && curl -L "https://github.com/kkunkunya/skill-zip/raw/main/
 
 | Skill | 描述 | 大小 | 下载 |
 |-------|------|------|------|
-| ui-ux-pro-max | UI/UX design intelligence for web and AI-native interfaces. Covers style plan... | 122KB | [下载](ui-ux-pro-max.zip) |
+| ui-ux-pro-max | UI/UX design intelligence for web and AI-native interfaces. Covers style plan... | 123KB | [下载](ui-ux-pro-max.zip) |
 | image-generator | Generates AI images using Gemini API with requirement confirmation workflow. ... | 14KB | [下载](image-generator.zip) |
 | baoyu-image-gen | AI image generation with OpenAI, Google and DashScope APIs. Supports text-to-... | 14KB | [下载](baoyu-image-gen.zip) |
 | meigen-design | 创意设计图像生成技能（基于 MeiGen MCP）。用于产品图、Logo、海报、品牌设计、 社交媒体配图等创意类图像生成。提供 1300+ prompt ... | 2KB | [下载](meigen-design.zip) |
@@ -89,7 +89,7 @@ SKILL=ui-ux-pro-max && curl -L "https://github.com/kkunkunya/skill-zip/raw/main/
 | github-uploader | Uploads current project to GitHub with one command. Automatically initializes... | 3KB | [下载](github-uploader.zip) |
 | project-zip | Intelligently compresses and packages projects into ZIP archives with environ... | 4KB | [下载](project-zip.zip) |
 | skill-zip-sync | 将 ~/.claude/skills/ 下的所有 skill 打包成独立 ZIP 并同步到 GitHub 仓库，支持按需下载。触发词：同步 skill、s... | 8KB | [下载](skill-zip-sync.zip) |
-| req-project-dev-draft | Guides projects from requirements to development through an outcome-driven wo... | 20KB | [下载](req-project-dev-draft.zip) |
+| req-project-dev-draft | Guides projects from requirements to development through an outcome-driven wo... | 21KB | [下载](req-project-dev-draft.zip) |
 | best-practices-lookup | 方案设计前自动查询相关最佳实践，保存到项目 docs/best-practices/。 触发词："查找最佳实践"、"best practices"、"最佳... | 3KB | [下载](best-practices-lookup.zip) |
 
 ### 🔧 系统与基础设施
@@ -100,7 +100,7 @@ SKILL=ui-ux-pro-max && curl -L "https://github.com/kkunkunya/skill-zip/raw/main/
 | system-self-iterator | 系统进化引擎 ⚡ — 双入口（日记洞察 + 外部文章），通过三透镜深度分析驱动 Claude Code 系统持续进化。维护系统状态快照，确认后自动执行改进... | 6KB | [下载](system-self-iterator.zip) |
 | config-migrator | Migrates Claude Code configurations to Codex CLI with an AI-first workflow (u... | 14KB | [下载](config-migrator.zip) |
 | autodl-deployer | AutoDL GPU云平台项目部署与迁移工具。默认交换路径：/root/autodl-fs/（上传下载都走这里，无data/子目录）。当用户需要：(1) ... | 19KB | [下载](autodl-deployer.zip) |
-| ssh-file-transfer | SSH 远程文件同步技能（稳健多轨策略）。AutoDL默认交换路径：/root/autodl-tmp/（上传下载都走这里）。 路线A：小改动通过 SSH ... | 6KB | [下载](ssh-file-transfer.zip) |
+| ssh-file-transfer | 通用 SSH 操作技能（LLM 规划 + Python 编译校验）。用于任何 SSH 任务：远端命令执行、上传下载、目录增量同步、发布与回滚、日志排障、端... | 12KB | [下载](ssh-file-transfer.zip) |
 | firecrawl | Firecrawl handles all web operations with superior accuracy, speed, and LLM-o... | 5KB | [下载](firecrawl.zip) |
 | document-suite | Unified document processing for DOCX, XLSX, PDF, PPTX. Create, read, edit doc... | 146KB | [下载](document-suite.zip) |
 | notebooklm | Complete API for Google NotebookLM - full programmatic access including featu... | 8KB | [下载](notebooklm.zip) |
@@ -116,7 +116,7 @@ SKILL=ui-ux-pro-max && curl -L "https://github.com/kkunkunya/skill-zip/raw/main/
 
 | Skill | 描述 | 大小 | 下载 |
 |-------|------|------|------|
-| video-wrapper | 为访谈视频添加综艺特效（花字、卡片、人物条、章节标题等）。支持 4 种视觉主题，先分析字幕内容生成建议供用户审批，再渲染视频。内置手机友好字幕增强（放大字... | 77KB | [下载](video-wrapper.zip) |
+| video-wrapper | LLM-first 的访谈视频特效与双语字幕工作流。LLM 负责采访、审批、语义翻译与多 Agent 编排；CLI 仅执行下载/渲染等确定性步骤。支持 4... | 75.5MB | [下载](video-wrapper.zip) |
 
 ### 💼 商务
 
@@ -129,6 +129,7 @@ SKILL=ui-ux-pro-max && curl -L "https://github.com/kkunkunya/skill-zip/raw/main/
 | Skill | 描述 | 大小 | 下载 |
 |-------|------|------|------|
 | closed-loop-thinking | 闭环思维框架——指导 LLM 在任何技能执行中建立"做了→验了→对了/改了"的反馈闭环。 核心问题：你怎么知道自己做对了？有验收标准就复用，没有就创造一个... | 3KB | [下载](closed-loop-thinking.zip) |
+| customer-delivery-doc | 客户交付文档生成技能。AI做笔杆子不做作者——读取项目成果，采访用户确认重点，用用户口吻写客户看得懂的交付说明书。 触发词：交付说明书、写交付文档、客户说... | 5KB | [下载](customer-delivery-doc.zip) |
 | delivery-quality-gate | Cross-deliverable customer handoff quality gate. Use before any client demo o... | 3KB | [下载](delivery-quality-gate.zip) |
 | nanobanana-ppt-skills | 基于 AI 自动生成高质量 PPT 图片和视频，支持智能转场和交互式播放。 | 2.6MB | [下载](nanobanana-ppt-skills.zip) |
 | project-handoff-closedloop | Prompt-led project cleanup and customer handoff workflow. Use when a project ... | 3KB | [下载](project-handoff-closedloop.zip) |
@@ -136,4 +137,4 @@ SKILL=ui-ux-pro-max && curl -L "https://github.com/kkunkunya/skill-zip/raw/main/
 
 ---
 
-*最后更新: 2026-02-22 01:52:45*
+*最后更新: 2026-02-24 01:18:51*
