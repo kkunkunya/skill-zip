@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-24T01:18:51.915907",
+  "updated_at": "2026-02-24T03:16:33.098292",
   "skills": [
     {
       "name": "20-ml-paper-writing",
@@ -21,13 +21,6 @@
       "file": "ai-deweight.zip",
       "size": 37726,
       "hash": "24e6845ca3e872ad944078632bed87eb"
-    },
-    {
-      "name": "ai-elements",
-      "description": "Create new AI chat interface components for the ai-elements library following established composable patterns, shadcn/ui integration, and Vercel AI SDK conventions. Use when creating new components in packages/elements/src or when the user asks to add a new component to ai-elements.",
-      "file": "ai-elements.zip",
-      "size": 368941,
-      "hash": "ba32da335ab3db66c1b498b6a59ed15f"
     },
     {
       "name": "autodl-deployer",
@@ -107,13 +100,6 @@
       "hash": "b04881296a0d382577db4aaebc71c23f"
     },
     {
-      "name": "best-practices-lookup",
-      "description": "方案设计前自动查询相关最佳实践，保存到项目 docs/best-practices/。 触发词：\"查找最佳实践\"、\"best practices\"、\"最佳实践\"、\"设计模式\"、\"行业标准\"。 在 req-project-dev-draft 阶段2自动触发。 NOT for：通用网页搜索（用firecrawl）/库文档查询（用context7 MCP）/ 日常对话中随口提到\"设计模式\"或\"最佳实践\"但不是在做方案设计时/ 已有明确技术方案只需要执行的场景。 本技能只在「方案设计阶段」查询行业实践，不是通用搜索引擎。",
-      "file": "best-practices-lookup.zip",
-      "size": 2641,
-      "hash": "3b0199e8cf5859d9fdff84ff6d9bb2d0"
-    },
-    {
       "name": "claude-md-maintainer",
       "description": "CLAUDE.md 维护规范（添加工具/技能、修改规则、精简审计）",
       "file": "claude-md-maintainer.zip",
@@ -121,18 +107,11 @@
       "hash": "6ce8f23369ce810532d7bae0c56d0852"
     },
     {
-      "name": "closed-loop-thinking",
-      "description": "闭环思维框架——指导 LLM 在任何技能执行中建立\"做了→验了→对了/改了\"的反馈闭环。 核心问题：你怎么知道自己做对了？有验收标准就复用，没有就创造一个。 触发词：闭环、验收标准、反馈循环、自验证、做对了吗、质量检查、acceptance criteria。 集成点：skill-creator 创建技能时自动引用本框架，确保新技能具备闭环能力。 NOT for：具体的代码测试验证（用 test-driven-development）/ 项目级完成验证（用 verification-before-completion）/ 调试排错（用 systematic-debugging）。 本技能是思维层面的框架，不替代具体的验证工具，而是在它们覆盖不到的地方补位。",
-      "file": "closed-loop-thinking.zip",
-      "size": 2601,
-      "hash": "6a7b72564eac6602329dd2a86638ba1c"
-    },
-    {
       "name": "config-migrator",
       "description": "Migrates Claude Code configurations to Codex CLI with an AI-first workflow (understand -> scan -> plan -> apply). Uses dual-source system understanding (system snapshot document + live codebase exploration) for informed migration decisions. Deterministic scanning/execution in Python, high-level semantic decisions by AI. NOT for: general system documentation (use system-self-iterator) / skill creation (use skill-creator) / hook management (use hooks-manager).",
       "file": "config-migrator.zip",
-      "size": 14184,
-      "hash": "46c10d9696871ac83bfc20ff4ba0fc4f"
+      "size": 15900,
+      "hash": "371afd2fd54ecd46b4830511c5c3e0eb"
     },
     {
       "name": "content-producer",
@@ -243,8 +222,8 @@
       "name": "library-researcher",
       "description": "学术文献搜索下载工具。确认VPN登录后，在学校发现系统批量检索下载，智能记录成功/失败文献。",
       "file": "library-researcher.zip",
-      "size": 7623,
-      "hash": "183dbc91fdfcfe7aea06f1d0bd00ce5c"
+      "size": 8838,
+      "hash": "ab7b29680760e0fd19baac022234c383"
     },
     {
       "name": "meigen-design",
@@ -271,8 +250,8 @@
       "name": "nanobanana-ppt-skills",
       "description": "基于 AI 自动生成高质量 PPT 图片和视频，支持智能转场和交互式播放。",
       "file": "nanobanana-ppt-skills.zip",
-      "size": 2735179,
-      "hash": "0c592a09967d7ebbc43d5127e346701b"
+      "size": 89127,
+      "hash": "9e6e828efc87423529f4831a1c70e832"
     },
     {
       "name": "notebooklm",
@@ -306,8 +285,8 @@
       "name": "project-zip",
       "description": "Intelligently compresses and packages projects into ZIP archives with environment setup guide. Analyzes project dependencies (Python/Node.js/Java), generates Chinese setup documentation with mirror source configurations for mainland China users, then packages with smart file exclusion. Activates when users request project compression, including requests like \"compress project\", \"package project\", \"archive project\", \"create zip\", \"zip project\", \"export project\", or \"project archiving\".",
       "file": "project-zip.zip",
-      "size": 4561,
-      "hash": "b05758687d3c8557db5fc1f0c1d8b84d"
+      "size": 5156,
+      "hash": "f6c6551f2294f1695234edd174bfadd8"
     },
     {
       "name": "remotion",
@@ -320,50 +299,43 @@
       "name": "req-project-dev-draft",
       "description": "Guides projects from requirements to development through an outcome-driven workflow (requirement interview, business logic review, codebase exploration via Plan Mode, solution research, validation planning, specification generation, continuous development). Deeply explores user expectations, establishes outcome-deliverable mapping, and generates comprehensive specification with validation matrix. Adds an \"expected scene\" step to turn each expectation into a concrete user-visible scene and compare expected-vs-actual results at acceptance time. Activates on requests like \"requirement analysis\", \"technical solution\", \"new project\", \"start planning\", or \"migrate to outcome-driven\". NOT for：简单bug修复/单文件修改/已有明确指令的小任务/ 纯代码重构（不涉及需求变更）/日常维护性工作。 本技能用于「从零开始的项目规划」或「重大功能设计」，不是所有开发任务都需要走这个流程。",
       "file": "req-project-dev-draft.zip",
-      "size": 21348,
-      "hash": "e5260c9268f54135474f953851ba1551"
-    },
-    {
-      "name": "results-driven-rl",
-      "description": "效果驱动的强化学习实验开发。优先保证训练收敛、结果好看、图表可用于论文，不深究实现细节。当用户需要：(1) 开发RL实验代码并产出论文级结果；(2) 诊断训练不收敛/奖励异常/约束违反率过高；(3) 调参使结果符合预期表格；(4) 生成学术图表（收敛曲线、对比表、调度图）时使用。触发词：RL实验、强化学习训练、训练不收敛、奖励调参、效果驱动、论文实验、PPO调参、MAPPO实验、收敛曲线、算法对比。",
-      "file": "results-driven-rl.zip",
-      "size": 11205,
-      "hash": "bfd606cf63ed1d259f21064db8dc49e8"
+      "size": 34933,
+      "hash": "1d5f828fb79b872d43058bf476578cc6"
     },
     {
       "name": "sci-hub-downloader",
-      "description": "Sci-Hub文献PDF下载工具。使用Playwright浏览器MCP通过Sci-Hub镜像下载学术文献PDF，自动处理镜像切换、PDF提取和文件重命名。适用于从DOI或论文列表批量下载文献。触发词：sci-hub下载、文献下载、论文PDF、从DOI下载、批量下载文献。",
+      "description": "兼容别名技能。Sci-Hub 下载流程已并入 library-researcher 的兜底分支。",
       "file": "sci-hub-downloader.zip",
-      "size": 2601,
-      "hash": "237adb215ade32b38c781706fd4abe1b"
+      "size": 701,
+      "hash": "75158eb8fef2b35bdc656bc128b2560a"
     },
     {
       "name": "simulink-model-builder",
       "description": "Builds MATLAB Simulink models programmatically with cross-version compatibility (R2016b~R2025a+). Activates when users request Simulink model creation, encounter \"no block named 'powerlib/xxx'\" errors, need programmatic model generation (add_block/set_param/add_line), work with Simscape Electrical simulations (power electronics/motor drives/switching power supplies), face port connection errors, need model beautification/layout, or want to reuse mature library modules. Resolves module path compatibility, automates model layout, and provides intelligent module reuse decisions.",
       "file": "simulink-model-builder.zip",
-      "size": 50864,
-      "hash": "5728529ae810162c09e80ba09b0b6b8e"
+      "size": 50884,
+      "hash": "6f6b96a74f52b40b8ed3ed44aa40bf14"
     },
     {
       "name": "skill-creator",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
       "file": "skill-creator.zip",
-      "size": 70174,
-      "hash": "fb5da3e1cee13d55d534a52be2cb5170"
+      "size": 70949,
+      "hash": "754800277dd623b116d60a685f7dc992"
     },
     {
       "name": "skill-zip-sync",
       "description": "将 ~/.claude/skills/ 下的所有 skill 打包成独立 ZIP 并同步到 GitHub 仓库，支持按需下载。触发词：同步 skill、skill 打包、上传 skill、下载 skill、skill-zip、技能同步、技能仓库。",
       "file": "skill-zip-sync.zip",
-      "size": 8314,
-      "hash": "bca89a0475b14d987867eec84f3a1c6c"
+      "size": 8282,
+      "hash": "aecc624fd254b23845e8c62fbb9bf960"
     },
     {
       "name": "ssh-file-transfer",
       "description": "通用 SSH 操作技能（LLM 规划 + Python 编译校验）。用于任何 SSH 任务：远端命令执行、上传下载、目录增量同步、发布与回滚、日志排障、端口转发、云端数据获取。优先让大语言模型生成结构化计划 JSON，再由 Python 生成可执行命令并做确定性策略约束（如默认不传 data/dataset/datasets）。触发词：ssh、远程执行、远程同步、rsync、scp、tar 流传输、部署、回滚、日志排查、端口转发、云端下载数据集。",
       "file": "ssh-file-transfer.zip",
-      "size": 12466,
-      "hash": "dbc83b3467a2e66b608d9fec6a2270c8"
+      "size": 13939,
+      "hash": "a1b216b21ccdb013801ad659ad81e5ca"
     },
     {
       "name": "system-self-iterator",
@@ -395,10 +367,10 @@
     },
     {
       "name": "ui-ux-pro-max",
-      "description": "UI/UX design intelligence for web and AI-native interfaces. Covers style planning, component/system design, implementation review, and UX optimization across HTML/Tailwind, React/Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, and shadcn. Includes guidance for product patterns (landing pages, dashboards, SaaS, e-commerce), visual systems (color, typography, spacing, motion, accessibility), chart choices, and AI interaction patterns (chat, message, prompt input, tool display). Integrates shadcn/ui MCP and ai-elements patterns. NOT for: backend/API/database logic, non-UI scripting/CLI tools, academic/scientific plotting, or generic markdown/text editing.",
+      "description": "UI/UX design intelligence for web and AI-native interfaces. Covers style planning, component/system design, implementation review, and UX optimization across HTML/Tailwind, React/Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, and shadcn. Includes guidance for product patterns (landing pages, dashboards, SaaS, e-commerce), visual systems (color, typography, spacing, motion, accessibility), chart choices, and AI interaction patterns (chat, message, prompt input, tool display). Integrates shadcn/ui MCP patterns. NOT for: backend/API/database logic, non-UI scripting/CLI tools, academic/scientific plotting, or generic markdown/text editing.",
       "file": "ui-ux-pro-max.zip",
-      "size": 125607,
-      "hash": "6fa8ad8fabe5af29045c0599ff13281b"
+      "size": 124190,
+      "hash": "fbc66dd50cb5b00268d0ccdb0226d79d"
     },
     {
       "name": "vault-layer-manager",
