@@ -1,5 +1,10 @@
 # 🧩 Skill ZIP Repository
 
+## Portfolio positioning
+
+This repository is a distribution-oriented skill archive for Claude Code, Codex CLI, and Gemini CLI workflows. It is kept public as a reusable packaging and installation surface for agent skills.
+
+
 ![skills](https://img.shields.io/badge/skills-56-blue) ![updated](https://img.shields.io/badge/updated-2026--2--24-green) ![size](https://img.shields.io/badge/total-99MB-orange)
 
 Claude Code / Codex / Gemini CLI 技能集中仓库 — 每个 skill 独立 ZIP 打包，按需下载安装。
